@@ -1,0 +1,234 @@
+optimization of topology, BL and inheritance probabilities using:
+ hmax = 2,
+ tolerance parameters: ftolRel=1.0e-6, ftolAbs=1.0e-6,
+                       xtolAbs=0.001, xtolRel=0.01.
+ max number of failed proposals = 75, liktolAbs = 1.0e-6.
+rootname for files: net2
+BEGIN: 10 runs on starting tree (Piptolepisimbricata,Piptolepisleptospermoides,(((((Proteopisargentea,(Eremanthus_elaeagnus_E2875,((Piptolepisrosmarinifolia,Piptolepispabstii)1:0.6640946987312242)#H23:0.0::0.7207072615204666)1:1.9859804486064883)1:0.5230770727994207,Piptolepisoleaster)0.74:0.07133863713767685,((Piptolepismonticola,Piptolepisgardneri)0.69:0.04819833542634238,(Piptolepis_ericoides,(Piptolepisbuxoides,#H23:2.7999601075760636::0.2792927384795334):0.08403805411523889)0.93:0.14703667213204005)0.4:0.05983620144992019)0.37:0.10856924218503153,Piptolepispilosa)0.56:0.03174638127527115,Piptolepisriparia):0.05267061841152776)0.67;
+
+main seed 3456
+seed: 3456 for run 1, 2022-12-06 19:46:57.897
+
+BEGIN SNaQ for run 1, seed 3456 and hmax 2 changed starting topology by NNI move
+
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 171 (failures: 75) with -loglik=1670.16746 and ht_min=[0.27985, 0.21703, 0.66019, 0.0, 1.99399, 0.5232, 0.07133, 0.0474, 9.97809, 0.08175, 0.14667, 0.06048, 0.00287, 0.05348, 0.05586, 0.12599, 0.03967, 0.0]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 5		 5		 4	 |	 NA 		 NA 		 NA 
+mvorigin	 48		 48		 0	 |	 0		 0		 --
+mvtarget	 50		 50		 3	 |	 1		 1		 --
+chdir		 29		 29		 3	 |	 1		 1		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 39		 34		 0	 |	 13		 13		 --
+Total		 171		 166		 10	 |	 15		 15		 3
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 0.2
+(Eremanthus_elaeagnus_E2875,((Piptolepisrosmarinifolia,Piptolepispabstii)1:0.6601886468194224)#H23:0.0::0.7201500631035664,(Proteopisargentea,(Piptolepisoleaster,(((Piptolepismonticola,Piptolepisgardneri)0.69:0.04739638950191693,(Piptolepis_ericoides,(Piptolepisbuxoides,#H23:9.978094023210232::0.27984993689643356):0.0817504043631002)0.93:0.14667245636578083)0.4:0.06047576320638225,((Piptolepispilosa,(Piptolepisriparia,((Piptolepisleptospermoides,Piptolepisimbricata):0.05586045466766072)#H30:0.039666102586064074::0.7829668207373417):0.053477028419067006)0.56:0.1259912143511098,#H30:0.0::0.21703317926265836):0.0028726208453978175)0.37:0.07132754141303589)0.74:0.5231998832294359)1:1.9939879706217238)1;
+---------------------
+seed: 40599 for run 2, 2022-12-06 20:32:44.277
+
+BEGIN SNaQ for run 2, seed 40599 and hmax 2 changed starting topology by NNI move
+
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 129 (failures: 75) with -loglik=1670.88132 and ht_min=[0.27924, 0.07811, 0.65916, 0.0, 1.98624, 0.52311, 0.07107, 0.0481, 7.82016, 0.08572, 0.14695, 0.05991, 0.09881, 0.48531, 0.04516, 0.04575]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 2		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 39		 39		 0	 |	 0		 0		 --
+mvtarget	 28		 28		 0	 |	 1		 1		 --
+chdir		 20		 20		 1	 |	 1		 1		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 40		 33		 0	 |	 1		 1		 --
+Total		 129		 121		 2	 |	 3		 3		 2
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 0.7
+(Piptolepisimbricata,Piptolepisleptospermoides,(((((Proteopisargentea,(Eremanthus_elaeagnus_E2875,((Piptolepisrosmarinifolia,Piptolepispabstii)1:0.6591644105276113)#H23:0.0::0.720763964422183)1:1.9862373625640164)1:0.5231084882473869,Piptolepisoleaster)0.74:0.07106957064278803,((Piptolepismonticola,Piptolepisgardneri)0.69:0.04809520164731111,(Piptolepis_ericoides,(Piptolepisbuxoides,#H23:7.82015768061299::0.279236035577817):0.08571501668254343)0.93:0.14695128800757962)0.4:0.059913671296339996)0.56:0.09881106998424521,(Piptolepispilosa,#H24:::0.0781095953553879):0.48531361863544775)0.37:0.04515742550518396,(Piptolepisriparia)#H24:::0.9218904046446121):0.04575058623222737)0.67;
+---------------------
+seed: 57695 for run 3, 2022-12-06 21:23:31.158
+
+BEGIN SNaQ for run 3, seed 57695 and hmax 2 changed starting topology by NNI move
+
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 355 (failures: 75) with -loglik=1672.6502 and ht_min=[0.27929, 0.50281, 0.13332, 0.659, 0.0, 1.98701, 0.52315, 0.07095, 0.04816, 9.99983, 0.08604, 0.14688, 0.05994, 0.10913, 0.04099, 0.0]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 6		 6		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 90		 90		 12	 |	 0		 0		 --
+mvtarget	 89		 89		 2	 |	 0		 0		 --
+chdir		 66		 66		 1	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 104		 82		 1	 |	 0		 0		 --
+Total		 355		 333		 17	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 0.0		 0.0
+(Piptolepisleptospermoides,#H24:::0.4971856983466625,(Piptolepisriparia,((((Proteopisargentea,(Eremanthus_elaeagnus_E2875,((Piptolepisrosmarinifolia,Piptolepispabstii)1:0.6589969885997247)#H23:0.0::0.7207052644159648)1:1.9870096009524083)1:0.5231548839426434,Piptolepisoleaster)0.74:0.07095072933214851,((Piptolepismonticola,Piptolepisgardneri)0.69:0.048156172806553814,((Piptolepisbuxoides,#H23:9.999830262265574::0.27929473558403517):0.08603544236191511,Piptolepis_ericoides)0.93:0.1468820967958801)0.4:0.059942689224490996)0.37:0.10912582121924198,(Piptolepispilosa,(Piptolepisimbricata)#H24:::0.5028143016533375):0.0)0.56:0.04099434832340837):0.13331642189990334)0.67;
+---------------------
+seed: 10390 for run 4, 2022-12-06 22:40:33.281
+
+BEGIN SNaQ for run 4, seed 10390 and hmax 2
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 96 (failures: 75) with -loglik=1672.85572 and ht_min=[0.2793, 0.65911, 0.0, 1.987, 0.52314, 0.07098, 0.04808, 9.81064, 0.08597, 0.14691, 0.05994, 0.10926, 0.02118, 0.05967, 0.01786]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 5		 4		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 30		 30		 0	 |	 0		 0		 --
+mvtarget	 22		 22		 0	 |	 0		 0		 --
+chdir		 12		 12		 1	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 27		 25		 0	 |	 0		 0		 --
+Total		 96		 93		 2	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+(Piptolepisimbricata,(((((Proteopisargentea,(Eremanthus_elaeagnus_E2875,((Piptolepisrosmarinifolia,Piptolepispabstii)1:0.6591096616124258)#H23:0.0::0.7207004919523818)1:1.9870041270316623)1:0.5231439277808917,Piptolepisoleaster)0.74:0.07097861285064991,((Piptolepismonticola,Piptolepisgardneri)0.69:0.04808376283966038,(Piptolepis_ericoides,(Piptolepisbuxoides,#H23:9.810637095853297::0.2792995080476181):0.08597072643334731)0.93:0.1469134153059763)0.4:0.05993972969467882)0.37:0.10926016982901408,Piptolepispilosa)0.56:0.021176577470453005,(Piptolepisriparia,#H24:::0.23036878894477122):0.08070795673329897):0.08070795673329897,(Piptolepisleptospermoides)#H24:::0.7696312110552288)0.67;
+---------------------
+seed: 18310 for run 5, 2022-12-06 23:2:29.226
+
+BEGIN SNaQ for run 5, seed 18310 and hmax 2 changed starting topology by NNI move
+
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 154 (failures: 75) with -loglik=1726.74041 and ht_min=[0.08216, 0.04661, 0.08127, 0.53543, 0.05853, 0.02493, 0.77295, 0.44554, 0.07708, 0.06122, 0.42739, 9.74394, 0.15561, 0.03763, 0.64927, 0.06714, 0.00183, 0.03611]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 3		 2		 2	 |	 NA 		 NA 		 NA 
+mvorigin	 43		 43		 4	 |	 13		 13		 --
+mvtarget	 42		 42		 4	 |	 11		 11		 --
+chdir		 27		 27		 3	 |	 25		 25		 --
+delete		 0		 0		 0	 |	 1		 1		 --
+nni		 39		 36		 0	 |	 14		 14		 --
+Total		 154		 150		 13	 |	 64		 64		 21
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 0.3
+(Piptolepispilosa,(Piptolepisriparia,(Piptolepisleptospermoides,(Piptolepisimbricata,#H26:0.036105007974784206::0.04661253384696038):0.6492662963205886):0.06714320885231324):0.03763427171551028,((((Proteopisargentea,(Eremanthus_elaeagnus_E2875,(Piptolepispabstii,(#H23:9.743937998602009::0.08215867779260841,Piptolepisrosmarinifolia):0.4273854863922655)1:0.5354333030151098)1:0.7729467235755303)1:0.44554111736102403,Piptolepisoleaster)0.74:0.07707811224807545,(((Piptolepis_ericoides,Piptolepisbuxoides)0.93:0.155607148585197,(Piptolepismonticola,Piptolepisgardneri)0.69:0.061219581423375816)0.4:0.058532334776333954)#H23:0.02492830841137699::0.9178413222073916)0.37:0.08127376707378976)#H26:0.0018337987564018131::0.9533874661530396)0.56;
+---------------------
+seed: 56862 for run 6, 2022-12-07 0:14:14.847
+
+BEGIN SNaQ for run 6, seed 56862 and hmax 2
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 96 (failures: 75) with -loglik=1670.99803 and ht_min=[0.27927, 0.14762, 0.65914, 0.0, 1.98656, 0.52314, 0.07107, 0.04808, 8.20381, 0.08567, 0.14692, 0.05991, 0.09235, 0.04805, 0.04938, 0.22457]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 4		 3		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 30		 30		 0	 |	 0		 0		 --
+mvtarget	 26		 26		 0	 |	 0		 0		 --
+chdir		 14		 14		 0	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 22		 21		 0	 |	 0		 0		 --
+Total		 96		 94		 1	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+(Piptolepisimbricata,Piptolepisleptospermoides,(((((Proteopisargentea,(Eremanthus_elaeagnus_E2875,((Piptolepisrosmarinifolia,Piptolepispabstii)1:0.6591425949262183)#H23:0.0::0.7207318625775636)1:1.9865578196180287)1:0.5231430302270167,Piptolepisoleaster)0.74:0.07106697453887952,((Piptolepismonticola,Piptolepisgardneri)0.69:0.04807591705161869,(Piptolepis_ericoides,(Piptolepisbuxoides,#H23:8.203806854137186::0.2792681374224364):0.08566544890473175)0.93:0.14691798690032817)0.4:0.05991230297143864)0.37:0.09234865973300745,(Piptolepispilosa)#H24:::0.8523793576871649)0.56:0.04804544501000969,(Piptolepisriparia,#H24:::0.14762064231283514):0.22456643797337858):0.049376079273433036)0.67;
+---------------------
+seed: 37911 for run 7, 2022-12-07 0:46:20.938
+
+BEGIN SNaQ for run 7, seed 37911 and hmax 2
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 97 (failures: 75) with -loglik=1672.85667 and ht_min=[0.2793, 0.6592, 0.0, 1.98703, 0.52315, 0.07098, 0.04816, 8.85473, 0.08613, 0.1469, 0.05992, 0.10921, 0.02144, 0.0595, 0.0176]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 4		 3		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 31		 31		 0	 |	 0		 0		 --
+mvtarget	 27		 27		 0	 |	 0		 0		 --
+chdir		 13		 13		 1	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 22		 21		 0	 |	 0		 0		 --
+Total		 97		 95		 2	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+(Piptolepisimbricata,(((((Proteopisargentea,(Eremanthus_elaeagnus_E2875,((Piptolepisrosmarinifolia,Piptolepispabstii)1:0.6592047026398886)#H23:0.0::0.7206967005547678)1:1.9870340257803358)1:0.5231473129388097,Piptolepisoleaster)0.74:0.07098259485246264,((Piptolepismonticola,Piptolepisgardneri)0.69:0.04816044001866851,(Piptolepis_ericoides,(Piptolepisbuxoides,#H23:8.854732393946286::0.27930329944523224):0.08612824065819234)0.93:0.14689965469773963)0.4:0.05991512567005196)0.37:0.10920974300108145,Piptolepispilosa)0.56:0.021437863830821868,(Piptolepisriparia,#H24:::0.22830934506651748):0.08023445891868111):0.08023445891868111,(Piptolepisleptospermoides)#H24:::0.7716906549334825)0.67;
+---------------------
+seed: 96883 for run 8, 2022-12-07 1:7:31.3
+
+BEGIN SNaQ for run 8, seed 96883 and hmax 2 changed starting topology by NNI move
+
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 270 (failures: 75) with -loglik=1670.88037 and ht_min=[0.27925, 0.05757, 0.6591, 0.00025, 1.98636, 0.52313, 0.07107, 0.04806, 8.62795, 0.08575, 0.14692, 0.05993, 0.09885, 0.04408, 0.04677, 0.73498]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 2		 2		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 78		 78		 7	 |	 0		 0		 --
+mvtarget	 73		 73		 1	 |	 0		 0		 --
+chdir		 57		 57		 8	 |	 1		 1		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 60		 46		 1	 |	 0		 0		 --
+Total		 270		 256		 18	 |	 1		 1		 1
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 1.0
+(Piptolepisimbricata,Piptolepisleptospermoides,((((Piptolepisoleaster,(Proteopisargentea,(Eremanthus_elaeagnus_E2875,((Piptolepisrosmarinifolia,Piptolepispabstii)1:0.6590974096676218)#H23:0.0002528416900769245::0.7207499431400262)1:1.9863591153395905)1:0.5231316430396302)0.37:0.07106591354435218,((Piptolepismonticola,Piptolepisgardneri)0.69:0.04806258217607876,(Piptolepis_ericoides,(Piptolepisbuxoides,#H23:8.627954703222958::0.2792500568599738):0.08575100315472085)0.93:0.14692060053632797)0.4:0.0599302599820128)0.74:0.0988488129857357,(Piptolepispilosa,#H24:::0.057573126405998244):0.7349795324716459)0.56:0.04407535123841614,(Piptolepisriparia)#H24:::0.9424268735940018):0.04677386129940598)0.67;
+---------------------
+seed: 83494 for run 9, 2022-12-07 1:50:29.399
+
+BEGIN SNaQ for run 9, seed 83494 and hmax 2 changed starting topology by NNI move
+
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 291 (failures: 75) with -loglik=1670.86857 and ht_min=[0.27925, 0.03726, 1.6428, 0.65911, 0.0, 1.98652, 0.52312, 0.07107, 0.04809, 0.14694, 9.89103, 0.08575, 0.05992, 0.09879, 0.04323, 0.04766]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 2		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 75		 75		 16	 |	 0		 0		 --
+mvtarget	 68		 68		 0	 |	 0		 0		 --
+chdir		 63		 63		 11	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 83		 63		 0	 |	 1		 1		 --
+Total		 291		 270		 28	 |	 1		 1		 1
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 1.0
+(Piptolepisleptospermoides,Piptolepisimbricata,(((((Proteopisargentea,(Eremanthus_elaeagnus_E2875,((Piptolepisrosmarinifolia,Piptolepispabstii)1:0.6591094353831777)#H23:0.0::0.7207454297579505)1:1.9865151418250853)1:0.5231199402662059,Piptolepisoleaster)0.74:0.07106890351854894,((Piptolepismonticola,Piptolepisgardneri)0.69:0.04809268837822568,((Piptolepisbuxoides,#H23:9.891033889907272::0.2792545702420494):0.08574583391174387,Piptolepis_ericoides)0.93:0.14693611271390136)0.4:0.05991700601015613)0.37:0.09879323113670563,(Piptolepispilosa,#H24:::0.037260173894158116):1.6427956503207233)0.56:0.04323395972696785,(Piptolepisriparia)#H24:::0.9627398261058419):0.047655103146027965)0.67;
+---------------------
+seed: 68985 for run 10, 2022-12-07 2:55:0.575
+
+BEGIN SNaQ for run 10, seed 68985 and hmax 2 changed starting topology by NNI move
+
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 212 (failures: 75) with -loglik=1676.624 and ht_min=[0.29004, 0.20833, 0.09949, 0.0, 0.65902, 2.13112, 0.52562, 0.07112, 0.05007, 0.0, 9.9999, 0.15224, 0.05811, 0.11229, 0.01511, 0.17417]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 3		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 50		 50		 10	 |	 0		 0		 --
+mvtarget	 67		 67		 5	 |	 0		 0		 --
+chdir		 44		 44		 6	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 48		 37		 2	 |	 4		 4		 --
+Total		 212		 199		 24	 |	 4		 4		 2
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 0.5
+(((Piptolepispilosa,(Piptolepisriparia,#H24:::0.20832788785387205):0.17417057828911786)0.56:0.015112310290255102,(((Proteopisargentea,(Eremanthus_elaeagnus_E2875,((Piptolepisrosmarinifolia,Piptolepispabstii)1:0.6590201224021284)#H23:0.0::0.7099561078195815)1:2.1311193347121185)1:0.5256183259652963,Piptolepisoleaster)0.74:0.07112368128355873,((Piptolepismonticola,Piptolepisgardneri)0.4:0.050065989606810773,(Piptolepisbuxoides,(#H23:9.999899480344913::0.29004389218041843,Piptolepis_ericoides):0.0)0.93:0.15224360527709999)0.69:0.058113290118157176)0.37:0.11228912648863351):0.09949428214683309,Piptolepisimbricata,(Piptolepisleptospermoides)#H24:::0.791672112146128)0.67;
+---------------------
+
+2022-12-07 3:30:11.048
+MaxNet is (Eremanthus_elaeagnus_E2875,((Piptolepisrosmarinifolia,Piptolepispabstii)1:0.6601886468194224)#H23:0.0::0.7201500631035664,(Proteopisargentea,(Piptolepisoleaster,(((Piptolepismonticola,Piptolepisgardneri)0.69:0.04739638950191693,(Piptolepis_ericoides,(Piptolepisbuxoides,#H23:9.978094023210232::0.27984993689643356):0.0817504043631002)0.93:0.14667245636578083)0.4:0.06047576320638225,((Piptolepispilosa,(Piptolepisriparia,((Piptolepisleptospermoides,Piptolepisimbricata):0.05586045466766072)#H30:0.039666102586064074::0.7829668207373417):0.053477028419067006)0.56:0.1259912143511098,#H30:0.0::0.21703317926265836):0.0028726208453978175)0.37:0.07132754141303589)0.74:0.5231998832294359)1:1.9939879706217238)1; 
+with -loglik 1670.1674587436632
