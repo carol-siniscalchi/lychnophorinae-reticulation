@@ -11,4 +11,4 @@ Data, scripts and figures from "Phylogenomics reveal widespread ancient hybridiz
 - **tree_comparisons:** contains script and data files used to generate the overlayed trees from Fig 2, plus some of the Supplemental Figures. PDFs are provided.
 - **trees:** contains all trees generated, divided by assembly method.
 
-A static copy of this repository is provided at Zenodo (add link). 
+A static copy of this repository is provided at Zenodo (10.5281/zenodo.15426471). 
