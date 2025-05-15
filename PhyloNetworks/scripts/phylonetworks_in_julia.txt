@@ -1,0 +1,73 @@
+### This is a general script for running PhyloNetworks in Julia
+### This script was repeated for each one of the analysis
+### change file names and paths if using
+
+# start julia
+
+# load packages
+using PhyloNetworks
+using PhyloPlots
+using CSV
+using DataFrames
+using StatsModels
+using Gadfly
+using RCall
+using QuartetNetworkGoodnessFit
+
+# read gene trees (all in a single file)
+genetrees = readMultiTopology("subset1_astral_input.tre")
+# count quartets
+q,t = countquartetsintrees(genetrees);
+# write concordance table
+df = writeTableCF(q,t)
+CSV.write("tableCF.csv", df);
+#read in CF table
+raxmlCF = readTableCF("tableCF.csv")
+#read in species tree
+astraltree = readMultiTopology("out_subset1_astral_best.tre")
+
+#run from 0 to 8 H events
+net0 = snaq!(astraltree[1], raxmlCF, hmax=0, filename="net0", seed=1234)
+net1 = snaq!(net0, raxmlCF, hmax=1, filename="net1", seed=2345)
+net2 = snaq!(net1, raxmlCF, hmax=2, filename="net2", seed=3456)
+net3 = snaq!(net2, raxmlCF, hmax=3, filename="net3", seed=4567)
+net4 = snaq!(net3, raxmlCF, hmax=4, filename="net4", seed=5678)
+net5 = snaq!(net4, raxmlCF, hmax=5, filename="net5", seed=6789)
+net6 = snaq!(net5, raxmlCF, hmax=6, filename="net6", seed=7891)
+net7 = snaq!(net6, raxmlCF, hmax=7, filename="net7", seed=8912)
+net8 = snaq!(net7, raxmlCF, hmax=8, filename="net8", seed=9123)
+
+# plot loglikelihood and graph it
+scores = [net0.loglik, net1.loglik, net2.loglik, net3.loglik, net4.loglik, net5.loglik, net6.loglik, net7.loglik, net8.loglik]
+using RCall
+R"pdf"("score-vs-h.pdf", width=4, height=4);
+R"plot"(x=0:8, y=scores, type="b", xlab="number of hybridizations h", ylab="network score");
+R"dev.off"();
+
+# bootstraps
+# place all bootstrap files from RAxML in a folder
+# make a BS file list like this:
+/project/phylonetworks/bootstrap/RAxML_bootstrap.uce-1004.phylip-relaxed
+/project/phylonetworks/bootstrap/RAxML_bootstrap.uce-1007.phylip-relaxed
+
+#  read bs trees:
+bootTrees = readBootstrapTrees("boots.txt")
+# run bootsnaq for the best H, using the respective network
+bootnet = bootsnaq(net3, bootTrees, hmax=3, nrep=100, runs=10, filename="bootsnaq3_raxmlboot")
+
+#plotting BS
+#show edge numbers:
+plot(net3, showEdgeNumber=true)
+rootonedge!(net3, 3);
+plot(net3)
+
+# calculate TICR test
+
+df = DataFrame(CSV.File("tableCF.csv"))
+dat = df[:,[1,2,3,4,5,6,7]]
+astraltree = readMultiTopology("out_subset1_astral_best.tre")[1] 
+rootatnode!(astraltree,"taxon_name")
+out = ticr!(astraltree,dat,false)
+out[1]
+
+

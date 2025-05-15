@@ -1,0 +1,7 @@
+tree	ast.68.bs	ast.68	ast.total.bs10	ast.total	cct.68	cct.total
+ast.68.bs	0					
+ast.68	22	0				
+ast.total.bs10	18	30	0			
+ast.total	32	22	24	0		
+cct.68	36	34	40	38	0	
+cct.total	42	40	32	36	28	0

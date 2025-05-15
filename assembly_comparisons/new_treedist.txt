@@ -1,0 +1,9 @@
+tree	ast.68.bs	ast.68	ast.total.bs10	ast.total	cct.68	cct.total	hybtotal	hyb75p
+ast.68.bs	0	22	18	32	36	42	90	90
+ast.68	22	0	30	22	34	40	94	94
+ast.total.bs10	18	30	0	24	40	32	92	92
+ast.total	32	22	24	0	38	36	98	98
+cct.68	36	34	40	38	0	28	92	92
+cct.total	42	40	32	36	28	0	94	94
+hybtotal	90	94	92	98	92	94	0	0
+hyb75p	90	94	92	98	92	94	0	0

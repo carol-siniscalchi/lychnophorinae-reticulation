@@ -1,0 +1,232 @@
+optimization of topology, BL and inheritance probabilities using:
+ hmax = 7,
+ tolerance parameters: ftolRel=1.0e-6, ftolAbs=1.0e-6,
+                       xtolAbs=0.001, xtolRel=0.01.
+ max number of failed proposals = 75, liktolAbs = 1.0e-6.
+rootname for files: net7
+BEGIN: 10 runs on starting tree (Minasiascapigera,((Presteliaeriopus,#H21:0.00030608647753098487::0.30474478499701585)0.77:1.5321760895387921,((Hololepis_pedunculata,(Heterocoma_ekmaniana,(Chronopappus_bifrons,#H22:::0.4142533019337043):0.44050419400777396)0.89:0.5895498741281575)1:0.6035057921296073,(Proteopisargentea)#H22:::0.5857466980662958)0.41:7.910761728904825e-6)0.77:0.3307259875197624,(Lychnophorasalicifolia,((Eremanthus_incanus,((Lychnophoraalbertinioides,(Lychnocephalusjolianus,#H23:::0.4480263761077519)1:1.5724987746744414)0.7:0.247380338848342,(Lychnophorasouzae,(Lychnocephalustomentosus)#H23:::0.5519736238922481):0.13065603224562272)0.99:0.4054805958364321):0.012175702001517743)#H21:0.0::0.6952552150029842):0.19371847515012583)0.54;
+
+main seed 8912
+seed: 8912 for run 1, 2023-02-20 13:12:55.618
+
+BEGIN SNaQ for run 1, seed 8912 and hmax 7 changed starting topology by NNI move
+
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 166 (failures: 75) with -loglik=1767.96223 and ht_min=[0.31075, 0.41565, 0.45943, 0.00042, 1.44047, 0.43793, 0.58969, 0.60574, 0.0, 0.33134, 1.46208, 0.24657, 0.13522, 0.40802, 0.00335, 0.00975, 0.19994]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 89		 0		 0	 |	 NA 		 NA 		 NA 
+mvorigin	 22		 22		 0	 |	 0		 0		 --
+mvtarget	 20		 20		 0	 |	 0		 0		 --
+chdir		 17		 17		 0	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 18		 16		 0	 |	 3		 3		 --
+Total		 166		 75		 0	 |	 3		 3		 3
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 1.0
+(((Presteliaeriopus,#H21:0.00042131461585789615::0.3107476910309732)0.77:1.4404736585286457,((Hololepis_pedunculata,(Heterocoma_ekmaniana,(Chronopappus_bifrons,#H22:::0.41564532096505435):0.4379322934615872)0.89:0.5896861670909386)1:0.6057392348950852,(Proteopisargentea)#H22:::0.5843546790349456)0.41:2.12262088094567e-6)0.77:0.3313445376962636,Minasiascapigera,(Lychnophorasalicifolia,((Eremanthus_incanus,((Lychnophoraalbertinioides,(Lychnocephalusjolianus,#H23:::0.45943483275365193)1:1.4620790020370118)0.7:0.24657385962998896,(Lychnophorasouzae,(Lychnocephalustomentosus)#H23:::0.5405651672463481):0.1352238281746235)0.99:0.408021793078372):0.003353113594517145)#H21:0.009753207737744869::0.6892523089690268):0.19993959539236536)0.54;
+---------------------
+seed: 41701 for run 2, 2023-02-20 13:20:50.564
+
+BEGIN SNaQ for run 2, seed 41701 and hmax 7
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 186 (failures: 75) with -loglik=1767.51917 and ht_min=[0.3048, 0.41425, 0.44777, 0.00108, 1.53175, 0.44047, 0.58956, 0.60349, 1.0e-5, 0.33076, 1.5752, 0.24737, 0.13055, 0.40551, 0.01213, 0.0, 0.19371]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 102		 0		 0	 |	 NA 		 NA 		 NA 
+mvorigin	 25		 25		 0	 |	 0		 0		 --
+mvtarget	 20		 20		 0	 |	 0		 0		 --
+chdir		 17		 17		 0	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 22		 13		 0	 |	 0		 0		 --
+Total		 186		 75		 0	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+(Minasiascapigera,((Presteliaeriopus,#H21:0.001078975605940892::0.304795935424744)0.77:1.5317467101624367,((Hololepis_pedunculata,(Heterocoma_ekmaniana,(Chronopappus_bifrons,#H22:::0.4142456247136828):0.4404711880116329)0.89:0.5895572618710936)1:0.6034938630235853,(Proteopisargentea)#H22:::0.5857543752863172)0.41:7.139948892918233e-6)0.77:0.33076237294284294,(Lychnophorasalicifolia,((Eremanthus_incanus,((Lychnophoraalbertinioides,(Lychnocephalusjolianus,#H23:::0.44776953155374116)1:1.5751973301340527)0.7:0.24737218996392207,(Lychnophorasouzae,(Lychnocephalustomentosus)#H23:::0.5522304684462589):0.13054532167166347)0.99:0.4055064002910895):0.012134466401768984)#H21:0.0::0.695204064575256):0.19371329928566272)0.54;
+---------------------
+seed: 50632 for run 3, 2023-02-20 13:26:51.791
+
+BEGIN SNaQ for run 3, seed 50632 and hmax 7
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 230 (failures: 75) with -loglik=1904.08913 and ht_min=[0.30608, 0.0, 0.46794, 0.00024, 1.51077, 0.37251, 0.04428, 0.13966, 0.49884, 0.33677, 1.35553, 0.2464, 0.13022, 0.40968, 0.00758, 0.00199, 0.19106]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 126		 0		 0	 |	 NA 		 NA 		 NA 
+mvorigin	 24		 24		 1	 |	 0		 0		 --
+mvtarget	 26		 26		 1	 |	 0		 0		 --
+chdir		 23		 23		 0	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 31		 18		 0	 |	 0		 0		 --
+Total		 230		 91		 2	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+(Minasiascapigera,((Presteliaeriopus,#H21:0.000239848150140896::0.30608045535340916)0.77:1.5107742879346342,(Proteopisargentea,((Hololepis_pedunculata)#H22:::1.0,(Heterocoma_ekmaniana,(Chronopappus_bifrons,#H22:::0.0):0.04428403066384487)0.89:0.4988366847685746)0.41:0.13966115788190314)1:0.3725092320771922)0.77:0.33677348729713624,(Lychnophorasalicifolia,((Eremanthus_incanus,((Lychnophoraalbertinioides,(Lychnocephalusjolianus,#H23:::0.46794418169914165)1:1.3555339674225677)0.7:0.24639581128631338,(Lychnophorasouzae,(Lychnocephalustomentosus)#H23:::0.5320558183008584):0.1302222825295779)0.99:0.4096816001795272):0.007575466732813553)#H21:0.001985804859286519::0.6939195446465909):0.19105671731542725)0.54;
+---------------------
+seed: 10236 for run 4, 2023-02-20 13:36:48.197
+
+BEGIN SNaQ for run 4, seed 10236 and hmax 7
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 246 (failures: 75) with -loglik=1787.1221 and ht_min=[0.30427, 0.40928, 0.11467, 0.00022, 1.51474, 0.48099, 0.59429, 0.60468, 1.0e-5, 0.32925, 0.39387, 0.18736, 1.09053, 0.40455, 0.00261, 0.01043, 0.19701]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 135		 0		 0	 |	 NA 		 NA 		 NA 
+mvorigin	 26		 26		 2	 |	 0		 0		 --
+mvtarget	 29		 25		 2	 |	 0		 0		 --
+chdir		 24		 23		 1	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 32		 24		 0	 |	 0		 0		 --
+Total		 246		 98		 5	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 0.0		 0.0
+(Minasiascapigera,((Presteliaeriopus,#H21:0.00022073331294804994::0.30427119118060575)0.77:1.5147357056320956,((Hololepis_pedunculata,(Heterocoma_ekmaniana,(Chronopappus_bifrons,#H22:::0.4092796208652055):0.4809919849622252)0.89:0.5942875663658472)1:0.6046760990846954,(Proteopisargentea)#H22:::0.5907203791347946)0.41:7.401335999119256e-6)0.77:0.3292454316773715,(Lychnophorasalicifolia,((Eremanthus_incanus,((Lychnophoraalbertinioides,(Lychnocephalusjolianus,(Lychnocephalustomentosus)#H23:::0.8853311119087602)1:0.393866865490865)0.7:0.18735963317706894,(Lychnophorasouzae,#H23:::0.11466888809123976):1.090531298001947)0.99:0.4045514078323257):0.002614297437802859)#H21:0.010433887235430962::0.6957288088193943):0.19701255986511645)0.54;
+---------------------
+seed: 57763 for run 5, 2023-02-20 13:46:21.537
+
+BEGIN SNaQ for run 5, seed 57763 and hmax 7 changed starting topology by NNI move
+
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 628 (failures: 75) with -loglik=1816.86205 and ht_min=[0.31319, 0.46273, 0.08123, 0.00352, 1.38069, 0.56496, 0.0, 0.60911, 0.0, 0.32638, 0.01013, 0.03436, 0.473, 0.0, 0.19319, 0.00502, 0.32077, 0.13251]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 273		 3		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 95		 95		 24	 |	 0		 0		 --
+mvtarget	 86		 83		 4	 |	 0		 0		 --
+chdir		 92		 81		 4	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 82		 40		 0	 |	 2		 2		 --
+Total		 628		 302		 33	 |	 2		 2		 2
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 1.0
+(Minasiascapigera,((Presteliaeriopus,#H21:0.003516234151723219::0.31318734647007324)0.77:1.3806872264629377,((Proteopisargentea)#H22:::0.5372697136130647,(Hololepis_pedunculata,((Heterocoma_ekmaniana,Chronopappus_bifrons):0.0,#H22:::0.46273028638693525)1:0.5649556971918296)0.89:0.6091074876946125)0.41:4.538434941549097e-6)0.77:0.32638235798909615,(Lychnophorasalicifolia,(((Eremanthus_incanus,(((Lychnocephalustomentosus,(Lychnocephalusjolianus)#H23:::0.7076627060235905)0.7:0.6038164908150426,(Lychnophoraalbertinioides,#H23:::0.2923372939764096)1:0.6038164908150426):0.03435851967641221,(Lychnophorasouzae)#H24:::0.9187663723500828)0.99:0.4729959696851321):0.005015477578151038,#H24:::0.08123362764991716):0.010129193246104326)#H21:0.0::0.6868126535299268):0.1931939057210611)0.54;
+---------------------
+seed: 69329 for run 6, 2023-02-20 14:17:4.229
+
+BEGIN SNaQ for run 6, seed 69329 and hmax 7 changed starting topology by NNI move
+
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 577 (failures: 75) with -loglik=2008.90839 and ht_min=[0.19122, 0.48922, 0.35668, 0.16324, 0.0, 0.0003, 0.61677, 0.34444, 0.56329, 0.75152, 1.59626, 0.15913, 4.31692, 0.22625, 0.0, 0.0, 0.03764, 0.76971, 0.00268]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 244		 3		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 71		 71		 8	 |	 0		 0		 --
+mvtarget	 96		 83		 1	 |	 0		 0		 --
+chdir		 79		 71		 1	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 87		 27		 0	 |	 1		 1		 --
+Total		 577		 255		 11	 |	 1		 1		 1
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 1.0
+(((Hololepis_pedunculata,(Heterocoma_ekmaniana,(Chronopappus_bifrons,#H22:::0.48921676181894486):0.3444449546768477)0.89:0.5632854699190165)1:0.7515237611462429,(Proteopisargentea)#H22:::0.5107832381810551)0.41:3.178402766916541e-6,((Lychnophorasalicifolia,#H24:::0.1632418420458752)0.77:1.5962596170359056,((Eremanthus_incanus,(((Lychnocephalustomentosus)#H23:::0.6433242816685282,((Lychnophoraalbertinioides,(Lychnocephalusjolianus,#H23:::0.3566757183314718)1:4.316919941803455)0.7:0.22625354040596962,Lychnophorasouzae)0.99:0.0):0.0)#H21:0.7697060474408082::0.8087812142999569):0.037635940026264865,(Presteliaeriopus,#H21:0.0003015027918717481::0.19121878570004314)0.77:0.6167720348407634):0.0026820376930694503):0.1591347500054361,(Minasiascapigera)#H24:::0.8367581579541248)0.54;
+---------------------
+seed: 5699 for run 7, 2023-02-20 14:43:27.749
+
+BEGIN SNaQ for run 7, seed 5699 and hmax 7 changed starting topology by NNI move
+
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 262 (failures: 75) with -loglik=1827.19618 and ht_min=[0.28871, 0.40437, 0.17782, 3.0e-5, 1.80388, 0.50693, 0.59531, 0.59783, 1.0e-5, 0.33141, 0.0, 0.69248, 1.0e-5, 1.0e-5, 0.01314, 0.19235, 0.0, 0.0, 0.0636, 0.36238]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 96		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 43		 43		 1	 |	 129		 129		 --
+mvtarget	 48		 46		 0	 |	 130		 0		 --
+chdir		 32		 32		 1	 |	 259		 259		 --
+delete		 0		 0		 0	 |	 30		 30		 --
+nni		 43		 14		 0	 |	 1		 0		 --
+Total		 262		 136		 3	 |	 549		 418		 7
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 0.0
+(Minasiascapigera,((Presteliaeriopus,#H21:2.5852866607409022e-5::0.2887070108423042)0.77:1.803877197974469,((Hololepis_pedunculata,(Heterocoma_ekmaniana,(Chronopappus_bifrons,#H22:::0.4043739801074775):0.5069271951287437)0.89:0.5953059338881085)1:0.5978331080011281,(Proteopisargentea)#H22:::0.5956260198925225)0.41:9.538295037615565e-6)0.77:0.331408868238768,(Lychnophorasalicifolia,(((Lychnophoraalbertinioides,(((Lychnocephalusjolianus,#H23:::0.8507038506673446)1:0.5550750778861846,(Lychnophorasouzae,(Lychnocephalustomentosus)#H23:::0.14929614933265542):0.5550750778861846)0.7:2.4315369592140544e-6)#H24:1.0993964306197168e-6::0.8221837929213665)0.99:0.6924789570802455,(Eremanthus_incanus,#H24:0.0::0.17781620707863355):5.975556631591922e-6):6.281435903867969e-6)#H21:0.013142152983352676::0.7112929891576958):0.192348871693185)0.54;
+---------------------
+seed: 90115 for run 8, 2023-02-20 15:43:33.95
+
+BEGIN SNaQ for run 8, seed 90115 and hmax 7
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 190 (failures: 75) with -loglik=1767.51917 and ht_min=[0.3048, 0.41425, 0.44777, 0.00108, 1.53175, 0.44047, 0.58956, 0.60349, 1.0e-5, 0.33076, 1.5752, 0.24737, 0.13055, 0.40551, 0.01213, 0.0, 0.19371]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 110		 0		 0	 |	 NA 		 NA 		 NA 
+mvorigin	 23		 23		 0	 |	 0		 0		 --
+mvtarget	 17		 17		 0	 |	 0		 0		 --
+chdir		 17		 17		 0	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 23		 18		 0	 |	 0		 0		 --
+Total		 190		 75		 0	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+(Minasiascapigera,((Presteliaeriopus,#H21:0.001078975605940892::0.304795935424744)0.77:1.5317467101624367,((Hololepis_pedunculata,(Heterocoma_ekmaniana,(Chronopappus_bifrons,#H22:::0.4142456247136828):0.4404711880116329)0.89:0.5895572618710936)1:0.6034938630235853,(Proteopisargentea)#H22:::0.5857543752863172)0.41:7.139948892918233e-6)0.77:0.33076237294284294,(Lychnophorasalicifolia,((Eremanthus_incanus,((Lychnophoraalbertinioides,(Lychnocephalusjolianus,#H23:::0.44776953155374116)1:1.5751973301340527)0.7:0.24737218996392207,(Lychnophorasouzae,(Lychnocephalustomentosus)#H23:::0.5522304684462589):0.13054532167166347)0.99:0.4055064002910895):0.012134466401768984)#H21:0.0::0.695204064575256):0.19371329928566272)0.54;
+---------------------
+seed: 69676 for run 9, 2023-02-20 15:49:35.026
+
+BEGIN SNaQ for run 9, seed 69676 and hmax 7
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 161 (failures: 75) with -loglik=1767.51917 and ht_min=[0.3048, 0.41425, 0.44777, 0.00108, 1.53175, 0.44047, 0.58956, 0.60349, 1.0e-5, 0.33076, 1.5752, 0.24737, 0.13055, 0.40551, 0.01213, 0.0, 0.19371]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 82		 0		 0	 |	 NA 		 NA 		 NA 
+mvorigin	 25		 25		 0	 |	 0		 0		 --
+mvtarget	 17		 17		 0	 |	 0		 0		 --
+chdir		 17		 17		 0	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 20		 16		 0	 |	 0		 0		 --
+Total		 161		 75		 0	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+(Minasiascapigera,((Presteliaeriopus,#H21:0.001078975605940892::0.304795935424744)0.77:1.5317467101624367,((Hololepis_pedunculata,(Heterocoma_ekmaniana,(Chronopappus_bifrons,#H22:::0.4142456247136828):0.4404711880116329)0.89:0.5895572618710936)1:0.6034938630235853,(Proteopisargentea)#H22:::0.5857543752863172)0.41:7.139948892918233e-6)0.77:0.33076237294284294,(Lychnophorasalicifolia,((Eremanthus_incanus,((Lychnophoraalbertinioides,(Lychnocephalusjolianus,#H23:::0.44776953155374116)1:1.5751973301340527)0.7:0.24737218996392207,(Lychnophorasouzae,(Lychnocephalustomentosus)#H23:::0.5522304684462589):0.13054532167166347)0.99:0.4055064002910895):0.012134466401768984)#H21:0.0::0.695204064575256):0.19371329928566272)0.54;
+---------------------
+seed: 77262 for run 10, 2023-02-20 15:55:34.725
+
+BEGIN SNaQ for run 10, seed 77262 and hmax 7
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 270 (failures: 75) with -loglik=1842.8815 and ht_min=[0.32544, 0.35525, 0.0, 0.0, 1.29762, 0.46431, 0.66807, 0.53045, 0.02007, 0.44322, 0.26875, 0.09825, 1.0, 0.47465, 0.01184, 0.0, 0.17797]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 137		 0		 0	 |	 NA 		 NA 		 NA 
+mvorigin	 30		 30		 3	 |	 38		 38		 --
+mvtarget	 38		 32		 2	 |	 37		 0		 --
+chdir		 25		 25		 2	 |	 76		 76		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 40		 24		 0	 |	 1		 0		 --
+Total		 270		 111		 7	 |	 152		 114		 39
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 0.3
+(Minasiascapigera,((Presteliaeriopus,#H21:7.11462281827182e-14::0.3254373467967499)0.77:1.2976184549097158,((Hololepis_pedunculata,(Heterocoma_ekmaniana,(Chronopappus_bifrons,#H22:::0.35524527273158074):0.4643128186040626)0.89:0.6680684832439573)1:0.5304461623787329,(Proteopisargentea)#H22:::0.6447547272684193)0.41:0.020065652874512258)0.77:0.44322117735547417,(Lychnophorasalicifolia,((Eremanthus_incanus,((Lychnophorasouzae)#H23:::1.0,((Lychnocephalusjolianus,Lychnocephalustomentosus)1:0.2687514573226924,(Lychnophoraalbertinioides,#H23:::0.0):1.0)0.7:0.09825454677263225)0.99:0.4746546181205462):0.011842543208844095)#H21:0.0::0.67456265320325):0.17796681770836092)0.54;
+---------------------
+
+2023-02-20 16:15:13.714
+MaxNet is (Minasiascapigera,((Presteliaeriopus,#H21:0.001078975605940892::0.304795935424744)0.77:1.5317467101624367,((Hololepis_pedunculata,(Heterocoma_ekmaniana,(Chronopappus_bifrons,#H22:::0.4142456247136828):0.4404711880116329)0.89:0.5895572618710936)1:0.6034938630235853,(Proteopisargentea)#H22:::0.5857543752863172)0.41:7.139948892918233e-6)0.77:0.33076237294284294,(Lychnophorasalicifolia,((Eremanthus_incanus,((Lychnophoraalbertinioides,(Lychnocephalusjolianus,#H23:::0.44776953155374116)1:1.5751973301340527)0.7:0.24737218996392207,(Lychnophorasouzae,(Lychnocephalustomentosus)#H23:::0.5522304684462589):0.13054532167166347)0.99:0.4055064002910895):0.012134466401768984)#H21:0.0::0.695204064575256):0.19371329928566272)0.54; 
+with -loglik 1767.519166371636

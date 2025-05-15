@@ -1,0 +1,236 @@
+optimization of topology, BL and inheritance probabilities using:
+ hmax = 3,
+ tolerance parameters: ftolRel=1.0e-6, ftolAbs=1.0e-6,
+                       xtolAbs=0.001, xtolRel=0.01.
+ max number of failed proposals = 75, liktolAbs = 1.0e-6.
+rootname for files: net3
+BEGIN: 10 runs on starting tree (Lychnocephaluscipoensis,Lychnocephalustomentosus,((((Minasiaalpestris,((Presteliaeriopus)#H23:::0.5632854246562966,((((Piptolepispseudomyrtus,Piptolepisleptospermoides):0.0642169606908011,Piptolepisimbricata)0.63:0.03069990788592368,Piptolepisoleaster)0.98:0.05173889173030505,Piptolepisgardneri)0.47:0.6650368714247405)0.88:0.10198542768869591)1:0.4450338507893128,(#H23:::0.43671457534370345,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.08043095604605636)0.67:0.3968619153899813)0.96:0.05166665220603457,(Lychnophoraalbertinioides,#H24:::0.11890256673651817):1.615982840604138):0.4779682083225949,(Lychnocephalusjolianus)#H24:::0.8810974332634818)1:0.02543327463649717)0.58;
+
+main seed 4567
+seed: 4567 for run 1, 2023-01-25 9:37:56.802
+
+BEGIN SNaQ for run 1, seed 4567 and hmax 3
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 129 (failures: 75) with -loglik=1490.38143 and ht_min=[0.01631, 0.09656, 0.0641, 0.03073, 0.01513, 0.05438, 0.77767, 6.71129, 0.20661, 0.37862, 0.2112, 0.07138, 7.21648, 0.46461, 0.03634, 0.55099, 0.04728, 0.15408]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 26		 26		 1	 |	 2		 2		 --
+mvtarget	 31		 31		 1	 |	 2		 2		 --
+chdir		 27		 27		 2	 |	 5		 5		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 44		 30		 2	 |	 1		 1		 --
+Total		 129		 115		 7	 |	 10		 10		 6
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 0.6
+(Piptolepispseudomyrtus,((Piptolepisimbricata,#H25:0.15407753814815098::0.06409861655320229):0.5509897039973081,(Piptolepisoleaster,(((Minasiaalpestris,((((Lychnophoraalbertinioides,#H24:::0.09656308092175149):7.216481830243749,((Lychnocephalusjolianus)#H24:::0.9034369190782485,(Lychnocephaluscipoensis,Lychnocephalustomentosus)0.58:0.03633501464055432)1:0.4646147568763017):0.07137652984748206,((Lychnophora_hatschbachii,Lychnophorasouzae)1:0.37862497358115965)#H23:::0.9836861804467636)0.67:0.21120216147893356,Presteliaeriopus)0.96:0.20660651070029068)1:0.7776700967870741,(#H23:::0.01631381955323643,Piptolepisgardneri)0.88:6.711285732079935)0.47:0.015130368540262137)#H25:0.04727972636400776::0.9359013834467977)0.98:0.05437920284268638)0.63:0.030725897043621216,Piptolepisleptospermoides);
+---------------------
+seed: 40025 for run 2, 2023-01-25 10:21:33.494
+
+BEGIN SNaQ for run 2, seed 40025 and hmax 3 changed starting topology by NNI move
+
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 101 (failures: 75) with -loglik=1315.47047 and ht_min=[0.48441, 0.25612, 0.33646, 0.50754, 0.13304, 0.0379, 0.08373, 0.57999, 0.16882, 0.44582, 0.21396, 0.27568, 0.05561, 0.49851, 0.18737, 0.22992]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 3		 3		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 25		 25		 1	 |	 0		 0		 --
+mvtarget	 28		 28		 0	 |	 1		 1		 --
+chdir		 19		 19		 1	 |	 1		 1		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 26		 14		 0	 |	 1		 1		 --
+Total		 101		 89		 3	 |	 3		 3		 2
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 0.7
+((((Minasiaalpestris,(((((Piptolepisleptospermoides,(Piptolepispseudomyrtus)#H25:::0.6635412296622147):0.1330415501045543,Piptolepisimbricata)0.63:0.03789801621172278,Piptolepisoleaster)0.98:0.08372595993337416,(Piptolepisgardneri,#H25:::0.3364587703377852):0.22992111926388842)0.47:0.5799924874254918,#H23:::0.48441324522434426)0.88:0.16882197656237669)1:0.44582172557647404,((Presteliaeriopus)#H23:::0.5155867547756557,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.2139627609752099)0.67:0.27568353131081713)0.96:0.05560951664472303,(Lychnophoraalbertinioides,#H24:::0.256115607887029):0.49850805158666145):0.507543492384064,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.743884392112971)1:0.18736785213947507)0.58;
+---------------------
+seed: 13375 for run 3, 2023-01-25 11:10:6.501
+
+BEGIN SNaQ for run 3, seed 13375 and hmax 3 changed starting topology by NNI move
+
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 209 (failures: 75) with -loglik=1329.33586 and ht_min=[0.47962, 0.55529, 0.265, 0.05973, 0.08155, 0.02678, 0.57731, 0.17033, 0.44435, 0.22167, 0.26651, 0.0, 1.11886, 0.1683, 1.64134, 0.05588, 0.27365, 0.41925]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 2		 2		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 58		 58		 0	 |	 1		 1		 --
+mvtarget	 47		 47		 3	 |	 0		 0		 --
+chdir		 41		 41		 2	 |	 1		 1		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 61		 38		 1	 |	 1		 1		 --
+Total		 209		 186		 7	 |	 3		 3		 2
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 0.7
+(Piptolepispseudomyrtus,((((#H23:::0.4796241012168656,(Minasiaalpestris,(((Presteliaeriopus)#H23:::0.5203758987831344,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.22166743969351582)0.67:0.26651470866396176,(((Lychnocephaluscipoensis,Lychnocephalustomentosus)0.58:0.05587631014321936)#H24:1.1188596730148477::0.5552896244046379,(Lychnophoraalbertinioides,(Lychnocephalusjolianus,#H24:0.2736488072258531::0.4447103755953621)1:1.6413380810001486):0.16830210766237577):0.0)0.96:0.44434604855496024)1:0.17033110528036213)0.88:0.5773101102078346,(Piptolepisoleaster)#H25:::0.7350005149874554)0.98:0.02677802540787344,Piptolepisgardneri)0.47:0.08155154348368714,Piptolepisimbricata)0.63:0.05973104161999457,(Piptolepisleptospermoides,#H25:::0.26499948501254456):0.4192498695019149);
+---------------------
+seed: 12156 for run 4, 2023-01-25 12:33:50.618
+
+BEGIN SNaQ for run 4, seed 12156 and hmax 3
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 122 (failures: 75) with -loglik=1343.9684 and ht_min=[0.48321, 0.0984, 0.17976, 0.02508, 0.38261, 0.05766, 0.07046, 0.58175, 0.17085, 0.44583, 0.21403, 0.27549, 0.05716, 3.61392, 0.46479, 0.0372]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 3		 2		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 30		 30		 1	 |	 1		 1		 --
+mvtarget	 30		 30		 0	 |	 0		 0		 --
+chdir		 21		 21		 0	 |	 1		 1		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 38		 15		 0	 |	 0		 0		 --
+Total		 122		 98		 2	 |	 2		 2		 1
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 0.5
+(Lychnocephaluscipoensis,Lychnocephalustomentosus,((((Minasiaalpestris,(#H23:::0.4832145395908806,((((Piptolepispseudomyrtus,Piptolepisleptospermoides):0.025078922655341708,(Piptolepisimbricata)#H25:::0.820240394441584)0.63:0.057661827201258405,Piptolepisoleaster)0.98:0.07045530099184373,(Piptolepisgardneri,#H25:::0.17975960555841594):0.38261138084149116)0.47:0.5817494753617245)0.88:0.17084625961275138)1:0.44582698544236876,((Presteliaeriopus)#H23:::0.5167854604091193,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.21402610529694852)0.67:0.2754861350400336)0.96:0.05715503583878266,(Lychnophoraalbertinioides,#H24:::0.09839765330291496):3.613917059048263):0.46478569055327534,(Lychnocephalusjolianus)#H24:::0.901602346697085)1:0.03719680625806695)0.58;
+---------------------
+seed: 71011 for run 5, 2023-01-25 13:21:35.33
+
+BEGIN SNaQ for run 5, seed 71011 and hmax 3 changed starting topology by NNI move
+
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 283 (failures: 75) with -loglik=1327.37039 and ht_min=[0.49192, 0.1192, 0.21525, 0.46717, 0.12963, 0.00291, 0.01686, 0.6064, 0.16101, 0.44536, 0.20588, 0.2831, 0.04916, 7.56892, 0.1031, 0.37399, 0.0, 0.00251]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 77		 77		 3	 |	 0		 0		 --
+mvtarget	 62		 62		 1	 |	 0		 0		 --
+chdir		 69		 69		 0	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 74		 27		 2	 |	 0		 0		 --
+Total		 283		 236		 7	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+((((Minasiaalpestris,(#H23:::0.4919215921587589,(Piptolepisgardneri,((Piptolepispseudomyrtus,(Piptolepisleptospermoides,#H25:0.002507838098966068::0.21524673556804866):0.37399117003397586)0.63:0.12962568827745627,((Piptolepisimbricata,Piptolepisoleaster)0.98:0.0)#H25:0.002907860264311858::0.7847532644319514):0.016858287052959893)0.47:0.6064038125454339)0.88:0.16101133557244626)1:0.4453589857590793,((Presteliaeriopus)#H23:::0.508078407841241,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.20587639009584446)0.67:0.28309776921955165)0.96:0.049156507458762586,(Lychnophoraalbertinioides,#H24:::0.11920182345019308):7.568915439875356):0.46717112894990004,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.880798176549807)1:0.1030953947666069)0.58;
+---------------------
+seed: 19067 for run 6, 2023-01-25 15:7:47.792
+
+BEGIN SNaQ for run 6, seed 19067 and hmax 3 changed starting topology by NNI move
+
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 291 (failures: 75) with -loglik=1351.70803 and ht_min=[0.33409, 0.12948, 0.18504, 0.4963, 0.76137, 0.1028, 0.06214, 0.01746, 0.43849, 0.0, 0.4943, 0.13842, 0.04994, 1.5638, 0.00035, 0.6896]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 69		 69		 8	 |	 1		 1		 --
+mvtarget	 68		 68		 1	 |	 1		 1		 --
+chdir		 76		 76		 5	 |	 2		 2		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 77		 57		 3	 |	 19		 6		 --
+Total		 291		 271		 18	 |	 23		 10		 7
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 0.7
+((((Lychnophora_hatschbachii,(Lychnophorasouzae,#H23:::0.3340867435044428)0.67:0.13842121149868877)1:0.4942987721216764,((Presteliaeriopus)#H23:::0.6659132564955572,((((Piptolepisimbricata,(Piptolepispseudomyrtus,(Piptolepisleptospermoides)#H25:::0.8149612360972223)0.63:0.10280203923628034):0.06213710161697309,(Piptolepisoleaster,#H25:::0.1850387639027778):0.689599676469208)0.47:0.017458484678299784,Piptolepisgardneri)0.98:0.7613712157180115,Minasiaalpestris)1:0.0)0.88:0.4384901424657592)0.96:0.049936650861538597,(Lychnophoraalbertinioides,#H24:::0.12948162741951927):1.5637989175854223):0.49629634465675015,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.8705183725804807)1:0.00035383170859375283)0.58;
+---------------------
+seed: 51646 for run 7, 2023-01-25 15:35:1.533
+
+BEGIN SNaQ for run 7, seed 51646 and hmax 3
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 192 (failures: 75) with -loglik=1352.18671 and ht_min=[0.48252, 0.09599, 0.04833, 0.05513, 0.00749, 0.0759, 0.60584, 0.17155, 0.44563, 0.2155, 0.27402, 0.05708, 7.75818, 0.4641, 0.03667, 0.947, 0.0, 0.12246]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 2		 2		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 49		 49		 0	 |	 0		 0		 --
+mvtarget	 46		 35		 0	 |	 1		 1		 --
+chdir		 37		 32		 4	 |	 1		 1		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 58		 29		 0	 |	 0		 0		 --
+Total		 192		 147		 5	 |	 2		 2		 1
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 0.5
+(Piptolepispseudomyrtus,Piptolepisleptospermoides,(Piptolepisimbricata,((Piptolepisgardneri,((#H23:::0.4825167873917332,(Minasiaalpestris,(((Presteliaeriopus)#H23:::0.5174832126082668,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.2155049070416381)0.67:0.2740161921877727,((Lychnophoraalbertinioides,#H24:::0.09599312563051157):7.758177851131154,((Lychnocephalusjolianus)#H24:::0.9040068743694885,(Lychnocephaluscipoensis,Lychnocephalustomentosus)0.58:0.03667057575665908)1:0.46410112193799524):0.0570769748854777)0.96:0.44563468228080233)1:0.17154803206930802)0.88:0.6058421555002119)#H25:0.0::0.9516718213199852)0.47:0.0758982918368693,(Piptolepisoleaster,#H25:0.12246001518033334::0.04832817868001487):0.9470043329833762)0.98:0.0074918161964844555)0.63:0.055125423520010666);
+---------------------
+seed: 6583 for run 8, 2023-01-25 16:31:35.283
+
+BEGIN SNaQ for run 8, seed 6583 and hmax 3 changed starting topology by NNI move
+
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 256 (failures: 75) with -loglik=1337.77678 and ht_min=[0.33696, 0.12024, 0.34245, 0.46952, 0.73968, 0.13523, 0.0377, 0.08385, 0.43976, 0.0, 0.4919, 0.13566, 0.04262, 6.60277, 0.10443, 0.22467]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 66		 66		 7	 |	 0		 0		 --
+mvtarget	 63		 62		 2	 |	 0		 0		 --
+chdir		 56		 52		 1	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 70		 44		 0	 |	 1		 1		 --
+Total		 256		 225		 11	 |	 1		 1		 1
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 1.0
+((((Lychnophora_hatschbachii,(#H23:::0.3369599540084991,Lychnophorasouzae)0.67:0.13566332215605845)1:0.49189584935359365,((Presteliaeriopus)#H23:::0.6630400459915009,(((((Piptolepisleptospermoides,(Piptolepispseudomyrtus)#H25:::0.6575481440518314):0.13522527980108193,Piptolepisimbricata)0.63:0.03770140854847213,Piptolepisoleaster)0.47:0.08384905144147951,(Piptolepisgardneri,#H25:::0.3424518559481687):0.2246734547054084)0.98:0.7396782007752488,Minasiaalpestris)1:5.862211708428033e-7)0.88:0.4397611073992987)0.96:0.04262134317746521,(Lychnophoraalbertinioides,#H24:::0.12024443256931826):6.602766279534691):0.4695248030733475,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.8797555674306817)1:0.10443402544465541)0.58;
+---------------------
+seed: 71682 for run 9, 2023-01-25 17:8:18.78
+
+BEGIN SNaQ for run 9, seed 71682 and hmax 3
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 99 (failures: 75) with -loglik=1335.19406 and ht_min=[0.51512, 0.09775, 0.09064, 0.07725, 0.06087, 0.02322, 0.59874, 0.16864, 0.44574, 0.21366, 0.27598, 0.0569, 4.02833, 0.46494, 0.03641, 3.72454]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 19		 19		 0	 |	 0		 0		 --
+mvtarget	 28		 28		 1	 |	 1		 1		 --
+chdir		 22		 22		 1	 |	 1		 1		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 29		 21		 0	 |	 0		 0		 --
+Total		 99		 91		 3	 |	 2		 2		 1
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 0.5
+(Lychnocephaluscipoensis,Lychnocephalustomentosus,((((Minasiaalpestris,(#H23:::0.48488100633011144,(((Piptolepisimbricata,(Piptolepispseudomyrtus,(Piptolepisleptospermoides)#H25:::0.9093632147301339):0.07724720454876108)0.63:0.06086687178510584,(Piptolepisoleaster,#H25:::0.09063678526986603):3.7245374389610824)0.98:0.023222165611247663,Piptolepisgardneri)0.47:0.5987411835556166)0.88:0.1686433090320207)1:0.44573871962756156,((Presteliaeriopus)#H23:::0.5151189936698886,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.2136635754782653)0.67:0.275976912778163)0.96:0.05690430772350585,(Lychnophoraalbertinioides,#H24:::0.0977502022527715):4.0283291068477665):0.4649376392862235,(Lychnocephalusjolianus)#H24:::0.9022497977472285)1:0.03641072276099838)0.58;
+---------------------
+seed: 25199 for run 10, 2023-01-25 17:46:15.18
+
+BEGIN SNaQ for run 10, seed 25199 and hmax 3 changed starting topology by NNI move
+
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 406 (failures: 75) with -loglik=1315.47055 and ht_min=[0.48431, 0.25607, 0.33531, 0.50751, 0.13255, 0.03792, 0.08371, 0.57994, 0.16888, 0.44581, 0.21418, 0.27548, 0.05564, 0.49849, 0.18733, 0.23094]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 108		 108		 6	 |	 0		 0		 --
+mvtarget	 100		 100		 8	 |	 0		 0		 --
+chdir		 101		 101		 13	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 96		 55		 6	 |	 5		 5		 --
+Total		 406		 365		 34	 |	 5		 5		 5
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 1.0
+((((Minasiaalpestris,(#H23:::0.48430881058634234,((((Piptolepisleptospermoides,(Piptolepispseudomyrtus)#H25:::0.6646871288170039):0.13255287138635072,Piptolepisimbricata)0.98:0.03791608666194361,Piptolepisoleaster)0.63:0.08370893976966386,(Piptolepisgardneri,#H25:::0.33531287118299613):0.23094392020183868)0.47:0.5799387690640186)0.88:0.16887621950628137)1:0.4458116275362423,((Presteliaeriopus)#H23:::0.5156911894136577,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.21417971364765673)0.67:0.275482477361992)0.96:0.055642839962469416,(Lychnophoraalbertinioides,#H24:::0.2560724944137591):0.4984946055383342):0.5075099320005907,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.7439275055862409)1:0.1873312296945028)0.58;
+---------------------
+
+2023-01-25 20:7:9.711
+MaxNet is ((((Minasiaalpestris,(((((Piptolepisleptospermoides,(Piptolepispseudomyrtus)#H25:::0.6635412296622147):0.1330415501045543,Piptolepisimbricata)0.63:0.03789801621172278,Piptolepisoleaster)0.98:0.08372595993337416,(Piptolepisgardneri,#H25:::0.3364587703377852):0.22992111926388842)0.47:0.5799924874254918,#H23:::0.48441324522434426)0.88:0.16882197656237669)1:0.44582172557647404,((Presteliaeriopus)#H23:::0.5155867547756557,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.2139627609752099)0.67:0.27568353131081713)0.96:0.05560951664472303,(Lychnophoraalbertinioides,#H24:::0.256115607887029):0.49850805158666145):0.507543492384064,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.743884392112971)1:0.18736785213947507)0.58; 
+with -loglik 1315.4704743423

@@ -1,0 +1,256 @@
+BOOTSTRAP OF SNAQ ESTIMATION 
+
+main seed 4321
+
+BEGIN: 50 replicates
+Tue 14 Feb 2023 01:36:10 PM CST
+
+begin replicate 1
+bootstrap data simulation: seed 16194
+estimation, 5 runs: seed 50182
+(Lychnocephaluscipoensis,Lychnocephalustomentosus,((Lychnocephalusjolianus)#H24:::1.0,(((((Piptolepisgardneri,#H25:0.13230806644732157::0.3032594078667422):0.2908434092668678,((Piptolepisimbricata,Piptolepisleptospermoides)0.98:0.026315540873201218,((Piptolepispseudomyrtus,Piptolepisoleaster):0.00023416654988834887)#H25:0.004018653539135183::0.6967405921332578)0.63:0.1273760275450695)0.47:0.590779968640008,(Minasiaalpestris,(Presteliaeriopus)#H23:::0.7158239060316053)0.88:0.12375406421464545)1:0.47001754863058237,(Lychnophora_hatschbachii,(#H23:::0.2841760939683947,Lychnophorasouzae)0.67:1.4396217603844543)1:0.5442139301753118)0.96:0.03280447053048847,(Lychnophoraalbertinioides,#H24:::0.0):0.2873490054441003):0.2898397206819792)1:0.11462388136455565)0.58;
+
+begin replicate 2
+bootstrap data simulation: seed 13850
+estimation, 5 runs: seed 89995
+((((Minasiaalpestris,(((((Piptolepisleptospermoides,(Piptolepispseudomyrtus)#H25:::0.5017059694969349):0.11189558563928087,Piptolepisimbricata)0.63:0.17696855426128164,Piptolepisoleaster)0.98:0.04308595402957969,(Piptolepisgardneri,#H25:::0.4982940305030651):0.08455061678465217)0.47:0.4508815259175543,(Presteliaeriopus)#H23:::0.6034945072902302)0.88:0.026559370342841573)1:0.48191663539378543,(#H23:::0.3965054927097698,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.3239980020894386)0.67:0.23681082298115602)0.96:0.0708572430720439,(Lychnophoraalbertinioides,#H24:::0.20449667140770114):0.7956380124642064):0.3497937961221144,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.7955033285922989)1:0.15252651470892656)0.58;
+
+begin replicate 3
+bootstrap data simulation: seed 63550
+estimation, 5 runs: seed 20206
+(Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.5984521347192941)1:0.05572711516485795,(((Lychnophora_hatschbachii,(#H23:::0.19020600956872047,Lychnophorasouzae)0.67:7.266174953381464)1:0.4005606265989799,((Presteliaeriopus)#H23:::0.8097939904312795,(Minasiaalpestris,((Piptolepisoleaster,((Piptolepisleptospermoides,Piptolepispseudomyrtus):0.09471927712427611,(#H25:::0.10769315846336507,Piptolepisimbricata):0.6908710232889973)0.63:0.15543449118684785)0.98:0.035495483650641584,(Piptolepisgardneri)#H25:::0.892306841536635)0.47:0.5385802187264115)1:0.10811702969629482)0.88:0.38957058048122595)0.96:0.12354350224839024,(Lychnophoraalbertinioides,#H24:::0.40154786528070585):0.02294546384758242):0.4040915486868022)0.58;
+
+begin replicate 4
+bootstrap data simulation: seed 36326
+estimation, 5 runs: seed 96831
+(Lychnocephaluscipoensis,Lychnocephalustomentosus,((((((Piptolepisgardneri,(Piptolepispseudomyrtus)#H25:::0.672476193555857):0.09302421720854873,((Piptolepisimbricata,(Piptolepisleptospermoides,#H25:::0.327523806444143):0.2077763160394707)0.63:0.14156669979834854,Piptolepisoleaster)0.47:0.00870945606275176)0.98:0.5938080253048176,(Minasiaalpestris,(Presteliaeriopus)#H23:::0.7939826905942244)0.88:0.012891129156921142)1:0.5220751130733656,(Lychnophora_hatschbachii,(#H23:::0.20601730940577556,Lychnophorasouzae)0.67:1.19685124877913)1:0.5636932831200137)0.96:0.06154075168819016,(Lychnophoraalbertinioides,#H24:::0.19361801184583544):0.15738696789287085):0.34625525936275886,(Lychnocephalusjolianus)#H24:::0.8063819881541645)1:0.011125170595371749)0.58;
+
+begin replicate 5
+bootstrap data simulation: seed 37005
+estimation, 5 runs: seed 32968
+((((Minasiaalpestris,(#H23:::0.4475852911204379,(#H25:::0.29433176493626656,((((Piptolepisleptospermoides,(Piptolepispseudomyrtus)#H25:::0.7056682350637334):0.15931828889097643,Piptolepisimbricata)0.63:0.13455539669361108,Piptolepisoleaster)0.98:0.09875824710295932,Piptolepisgardneri)0.47:0.19527051914864377):0.0985176114053868)0.88:0.25781238301503673)1:0.4792642502628605,((Presteliaeriopus)#H23:::0.5524147088795621,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.35528839079849883)0.67:0.1213681369012961)0.96:0.04727350540944654,(Lychnophoraalbertinioides,#H24:::0.19327846322458558):0.6540392519368835):0.4724528440677734,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.8067215367754144)1:0.15393111109852067)0.58;
+
+begin replicate 6
+bootstrap data simulation: seed 83325
+estimation, 5 runs: seed 17365
+(Piptolepisleptospermoides,((Piptolepisoleaster,((Piptolepisgardneri,((Presteliaeriopus)#H23:::0.6992918429211867,(Minasiaalpestris,(((Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.502870457437438)1:0.08922064248221157)0.58:0.5071824767533876,(Lychnophoraalbertinioides,#H24:::0.49712954256256203):0.0):0.10292236930811474,(Lychnophora_hatschbachii,(Lychnophorasouzae,#H23:::0.3007081570788132)0.67:0.6158082245420315)1:0.5686905087287204)0.96:0.48533802338601023)1:0.026560527661928714)0.88:0.5983350234944246)0.47:0.0)#H25:0.033248339344591746::0.7790967263031593)0.98:0.20227624614875633,(#H25:4.731695396962933e-9::0.22090327369684074,Piptolepispseudomyrtus):0.8904925355497609)0.63:0.02840004246902078,Piptolepisimbricata);
+
+begin replicate 7
+bootstrap data simulation: seed 69101
+estimation, 5 runs: seed 58116
+((((Minasiaalpestris,((Presteliaeriopus)#H23:::0.6654196869610296,((Piptolepisoleaster,(Piptolepispseudomyrtus,(Piptolepisleptospermoides,(Piptolepisimbricata)#H25:::0.516398310465473)0.63:0.49327548310100844):0.05782983747205314)0.98:0.09636225867589844,(Piptolepisgardneri,#H25:::0.483601689534527):0.09449636990294591)0.47:0.3861715266561125)0.88:0.19605777499109767)1:0.38132821727097643,(Lychnophora_hatschbachii,(#H23:::0.33458031303897046,Lychnophorasouzae)0.67:0.2523152253600745)1:0.4621785570982837)0.96:0.0359965969333816,(Lychnophoraalbertinioides,#H24:::0.3896075050333672):0.11761897096577367):0.425865915790377,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.6103924949666328)1:0.2521214945059721)0.58;
+
+begin replicate 8
+bootstrap data simulation: seed 8205
+estimation, 5 runs: seed 65293
+((((Minasiaalpestris,(((Piptolepisgardneri,(Piptolepisoleaster,((Piptolepisimbricata,Piptolepisleptospermoides)0.63:0.00033343713392931606)#H25:0.18692019686441033::0.6698339895094328)0.98:0.11732423074697627):0.03829042174739298,(Piptolepispseudomyrtus,#H25:0.02231770020905529::0.33016601049056715):0.3061716555304006)0.47:0.5210370658815805,(Presteliaeriopus)#H23:::0.6431234551333911)0.88:0.07600986792814468)1:0.38283685616685076,(Lychnophora_hatschbachii,(#H23:::0.3568765448666089,Lychnophorasouzae)0.67:0.6406768345660937)1:0.43325006610991507)0.96:0.10121795308121227,(Lychnophoraalbertinioides,#H24:::0.20082158030384806):0.2628890778962855):0.38482044207329263,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.799178419696152)1:0.10286050194750852)0.58;
+
+begin replicate 9
+bootstrap data simulation: seed 64418
+estimation, 5 runs: seed 12183
+(((((Minasiaalpestris,(Presteliaeriopus)#H23:::0.619921571534024)0.88:0.02351651006741585,((((Piptolepisleptospermoides,#H25:::0.333849418178028):0.11209090365908349,Piptolepisoleaster)0.63:0.07485798490322416,Piptolepisimbricata)0.98:0.15444353893753704,(Piptolepisgardneri,(Piptolepispseudomyrtus)#H25:::0.666150581821972):0.09457381345146768)0.47:0.5520311706215911)1:0.5008064587786856,(#H23:::0.3800784284659759,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.08410649791060061)0.67:0.34336094032859377)0.96:0.15340405982210015,(Lychnophoraalbertinioides,#H24:::0.439549516376478):0.04108093057292552):0.49279164197869213,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.560450483623522)1:0.10374676754971268)0.58;
+
+begin replicate 10
+bootstrap data simulation: seed 87304
+estimation, 5 runs: seed 63022
+(((((Lychnophora_hatschbachii,Lychnophorasouzae)1:0.21534560461212135,(Presteliaeriopus)#H23:::0.5616774811681995)0.67:0.1967941740571054,(Minasiaalpestris,(((Piptolepisoleaster,(Piptolepisleptospermoides)#H25:::0.6106285370738752)0.98:0.12148922183911895,(Piptolepisgardneri,(Piptolepispseudomyrtus,(Piptolepisimbricata,#H25:::0.3893714629261248)0.63:0.39421150538228905):0.06706205317874013):0.06595050896876666)0.47:0.4549134940074817,#H23:::0.43832251883180046)0.88:0.08804417035481733)1:0.3891332109844009)0.96:0.0,(Lychnophoraalbertinioides,#H24:::0.08518023552569):1.574306902133822):0.32884228428651185,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.91481976447431)1:0.03167465734297461)0.58;
+
+begin replicate 11
+bootstrap data simulation: seed 70563
+estimation, 5 runs: seed 54971
+((((Minasiaalpestris,(((Piptolepisgardneri,(Piptolepisoleaster,(Piptolepisleptospermoides,(Piptolepisimbricata,#H25:::0.3280713422861929):0.00541469859120634)0.63:0.20177089887765934)0.98:0.07308236559169148)0.47:0.04402603458252211,(Piptolepispseudomyrtus)#H25:::0.671928657713807):0.44845121820543116,(Presteliaeriopus)#H23:::0.5685143445954866)0.88:0.10055125404818271)1:0.5167844404702109,(#H23:::0.43148565540451345,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.16317153448120247)0.67:0.22986131848775146)0.96:0.06317019808532387,(Lychnophoraalbertinioides,#H24:::0.17065448609822848):1.2361891402024163):0.3971716195955037,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.8293455139017716)1:0.11696096704735919)0.58;
+
+begin replicate 12
+bootstrap data simulation: seed 52801
+estimation, 5 runs: seed 4268
+((((Minasiaalpestris,(((((Piptolepisleptospermoides,#H25:::0.3867074836505471):0.13989841566939468,Piptolepisimbricata)0.63:0.15485682734665357,Piptolepisoleaster)0.98:0.04245799189370597,(Piptolepisgardneri,(Piptolepispseudomyrtus)#H25:::0.6132925163494529):0.04864079678685541)0.47:0.5448478006899935,(Presteliaeriopus)#H23:::0.5734736603475081)0.88:0.050352160300327)1:0.5017263100423296,(Lychnophora_hatschbachii,(#H23:::0.42652633965249187,Lychnophorasouzae)0.67:0.16815382826791558)1:0.4378232026826065)0.96:0.07712070471776566,(Lychnophoraalbertinioides,#H24:::0.14720848671991138):0.041741310804204665):0.31740089766171736,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.8527915132800886)1:0.1482574293541299)0.58;
+
+begin replicate 13
+bootstrap data simulation: seed 41389
+estimation, 5 runs: seed 62025
+(((((Minasiaalpestris,(Piptolepisoleaster,((Piptolepisgardneri,#H25:::0.29411142488746805):1.6337050697680596e-7,((Piptolepispseudomyrtus)#H25:::0.7058885751125319,(Piptolepisleptospermoides,Piptolepisimbricata)0.63:0.005585579535344691):0.17940234768358224)0.98:0.03321203867521145)0.47:0.5557695450791007)1:0.029644326291994202,(#H23:::0.142096899730029,Presteliaeriopus)0.67:9.626973236047705)0.88:0.3979310323527322,(Lychnophora_hatschbachii,(Lychnophorasouzae)#H23:::0.857903100269971)1:0.5339724323303842)0.96:2.0584786536700507e-8,(Lychnophoraalbertinioides,#H24:::0.09646132086068877):1.1273945737286744):0.3755621015838949,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.9035386791393112)1:0.08505309899247598)0.58;
+
+begin replicate 14
+bootstrap data simulation: seed 49228
+estimation, 5 runs: seed 82615
+(Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.7376547888456524)1:0.1311379821233912,((Lychnophoraalbertinioides,#H24:::0.26234521115434767):0.15255314582601964,((Lychnophora_hatschbachii,(Lychnophorasouzae,#H23:::0.18502169118859627)0.67:0.9601000411760817)1:0.5288335065740157,(Minasiaalpestris,((Presteliaeriopus)#H23:::0.8149783088114038,(((Piptolepisimbricata,(Piptolepisleptospermoides,(Piptolepispseudomyrtus)#H25:::0.559735066186944):0.11646025877607499)0.63:0.15003000783090736,Piptolepisoleaster)0.47:0.018634841336260786,(Piptolepisgardneri,#H25:::0.4402649338130559):0.10903086794414732)0.98:0.5707669018783498)0.96:0.06710820730559001)1:0.35878710801775726)0.88:0.1374420188810849):0.4195042810272866)0.58;
+
+begin replicate 15
+bootstrap data simulation: seed 24885
+estimation, 5 runs: seed 54604
+((((Minasiaalpestris,((((Piptolepispseudomyrtus,Piptolepisgardneri):0.012446077691631726,(Piptolepisimbricata,(Piptolepisleptospermoides)#H25:::0.904098142637388)0.63:0.15857692441196258)0.98:0.04545929988068917,(#H25:::0.09590185736261199,Piptolepisoleaster):0.8251040051954711)0.47:0.5898651191728842,(Presteliaeriopus)#H23:::0.777315049685724)0.88:0.046872388344716825)1:0.4033664458573661,(Lychnophora_hatschbachii,(#H23:::0.222684950314276,Lychnophorasouzae)0.67:9.968337945338122)1:0.5009551065147901)0.96:0.0189887707358395,(Lychnophoraalbertinioides,#H24:::0.201965799104596):0.8422476519377532):0.44574250869175225,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.798034200895404)1:0.06582345208780416)0.58;
+
+begin replicate 16
+bootstrap data simulation: seed 5781
+estimation, 5 runs: seed 75067
+((((Minasiaalpestris,(((Piptolepisgardneri,((Piptolepisimbricata,(Piptolepisleptospermoides,#H25:::0.3886793049928607):0.11739862334232973)0.63:0.0836997505298576,Piptolepisoleaster)0.98:0.06046159261199001)0.47:0.08016129172547706,(Piptolepispseudomyrtus)#H25:::0.6113206950071393):0.487335463250373,(Presteliaeriopus)#H23:::0.7752163755182693)0.88:0.0656278726913859)1:0.4438966240804582,(Lychnophora_hatschbachii,(#H23:::0.22478362448173073,Lychnophorasouzae)0.67:0.24012889002680465)1:0.42516286597693975)0.96:0.03400127468749843,(Lychnophoraalbertinioides,#H24:::0.0636558501287927):2.204475593933321):0.3562129192192801,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.9363441498712073)1:0.022958488809349423)0.58;
+
+begin replicate 17
+bootstrap data simulation: seed 91481
+estimation, 5 runs: seed 26133
+((((Minasiaalpestris,(((Piptolepisoleaster,(Piptolepisgardneri,(Piptolepispseudomyrtus,#H25:::0.1312892580938038):1.2012071683390388):0.04318344640052044)0.63:0.01522139536906522,(Piptolepisimbricata,(Piptolepisleptospermoides)#H25:::0.8687107419061962)0.98:0.257296891306164)0.47:0.49070745656797404,#H23:::0.4820377585479719)0.88:0.23230209556309486)1:0.4021208474531627,((Presteliaeriopus)#H23:::0.5179622414520282,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.32004911164638555)0.67:0.07909874228203753)0.96:0.18056466394409346,(Lychnophoraalbertinioides,#H24:::0.2085336718684413):0.18849960035424762):0.37765031901077695,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.7914663281315587)1:0.08817291495682435)0.58;
+
+begin replicate 18
+bootstrap data simulation: seed 91752
+estimation, 5 runs: seed 83326
+(Piptolepisimbricata,#H25:0.0::0.48580181899325775,(Piptolepisleptospermoides,(Piptolepispseudomyrtus,(Piptolepisoleaster,((Piptolepisgardneri,((Presteliaeriopus)#H23:::0.6466450576718069,(Minasiaalpestris,(((Lychnophoraalbertinioides,#H24:::0.476522343782366):0.13349606735083844,(Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.523477656217634)1:0.3276879440186802)0.58:0.4625478445082832):0.06698957061754514,(Lychnophora_hatschbachii,(#H23:::0.3533549423281931,Lychnophorasouzae)0.67:0.37811429315244505)1:0.48018450816051267)0.96:0.4480452714145597)1:0.10570605836147119)0.88:0.48843195754472446)0.47:0.1276961001303335)#H25:0.0037322985550201897::0.5141981810067422)0.98:0.2373867553062927):0.23216762373265834)0.63:0.08760283456626307);
+
+begin replicate 19
+bootstrap data simulation: seed 55376
+estimation, 5 runs: seed 54975
+((((Minasiaalpestris,(((((Piptolepisleptospermoides,(Piptolepispseudomyrtus)#H25:::0.76272938535186):0.09179553677675602,Piptolepisimbricata)0.63:0.1402347961073965,Piptolepisoleaster)0.98:0.012587886695145985,(Piptolepisgardneri,#H25:::0.23727061464814):0.6895700232375579)0.47:0.3089043485752269,#H23:::0.4313429656749852)0.88:0.2743809723263069)1:0.5460657811616493,((Presteliaeriopus)#H23:::0.5686570343250148,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.42212212466201304)0.67:0.09023359916469315)0.96:0.09474006148446018,(Lychnophoraalbertinioides,#H24:::0.3347448839298394):0.16126874686397988):0.4638455389881988,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.6652551160701605)1:0.07032200993812088)0.58;
+
+begin replicate 20
+bootstrap data simulation: seed 54422
+estimation, 5 runs: seed 97370
+((((Minasiaalpestris,(((((Piptolepisleptospermoides,(Piptolepispseudomyrtus)#H25:::0.6529746560785932):0.015482163564687169,Piptolepisimbricata)0.63:0.19261502591838628,Piptolepisoleaster)0.98:0.08064778392827786,(Piptolepisgardneri,#H25:::0.3470253439214068):0.2019328543674725)0.47:0.18133423825341927,#H23:::0.419718407493438)0.88:0.432521506150425)1:0.5514382716317567,((Presteliaeriopus)#H23:::0.5802815925065621,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.25764879663087475)0.67:0.20521339525763657)0.96:0.048773312204131544,(Lychnophoraalbertinioides,#H24:::0.37363299184780424):0.2076120022015378):0.4316178495621784,Lychnocephaluscipoensis,(Lychnocephalustomentosus,(Lychnocephalusjolianus)#H24:::0.6263670081521957)1:0.054027347208135054)0.58;
+
+begin replicate 21
+bootstrap data simulation: seed 47874
+estimation, 5 runs: seed 75514
+(((Piptolepisoleaster,((#H23:::0.4032163696237795,(Minasiaalpestris,((Presteliaeriopus)#H23:::0.5967836303762205,((Lychnophora_hatschbachii,Lychnophorasouzae)1:0.5091035084537517,((Lychnophoraalbertinioides,#H24:::0.23756462705924405):0.29158179169706366,(Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.7624353729407559)1:0.150585237116845)0.58:0.3382578258567999):0.13927867236630784)0.96:0.017713751155821265)0.67:0.4435781183594794)1:0.1466375035222442)0.88:0.42366724273088296)#H25:::0.6933226098641514)0.47:0.13825226447669017,Piptolepisleptospermoides)0.63:0.10221530399992172,(Piptolepispseudomyrtus,(Piptolepisgardneri,#H25:::0.30667739013584866)0.98:0.3881261624929014):0.08685537240107287,Piptolepisimbricata);
+
+begin replicate 22
+bootstrap data simulation: seed 19237
+estimation, 5 runs: seed 65290
+(Lychnocephalustomentosus,(Lychnocephaluscipoensis,(#H24:5.045559581552617::0.15826436921433262,Lychnocephalusjolianus):0.5914098496987313)1:0.08744676061588222,(Lychnophoraalbertinioides,(((Minasiaalpestris,(#H23:::0.4107003641283822,((Piptolepispseudomyrtus)#H25:::0.7419999336218427,((((Piptolepisleptospermoides,#H25:::0.2580000663781573):0.5793396622443028,Piptolepisimbricata)0.63:0.1230339135320874,Piptolepisoleaster)0.98:0.0729627982908515,Piptolepisgardneri)0.47:0.0326359691900008):0.4835933500243354)0.88:0.041193514755615813)1:0.484480854595309,((Presteliaeriopus)#H23:::0.5892996358716178,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.3180232489819506)0.67:0.1346015100577412)0.96:0.20614368055397872)#H24:0.0::0.8417356307856674):0.5249162350327572)0.58;
+
+begin replicate 23
+bootstrap data simulation: seed 55793
+estimation, 5 runs: seed 41233
+((((Minasiaalpestris,(((Piptolepisoleaster,((Piptolepispseudomyrtus)#H25:::0.8305624928305682,(Piptolepisimbricata,Piptolepisleptospermoides)0.63:0.0):0.13226422631155302)0.98:0.034037282946102164,(Piptolepisgardneri,#H25:::0.16943750716943184):0.3566951047207767)0.47:0.4922023407835081,(Presteliaeriopus)#H23:::0.7986152012777824)0.88:0.007494740434974238)1:0.49250988007527924,(Lychnophora_hatschbachii,(#H23:::0.20138479872221762,Lychnophorasouzae)0.67:1.3475521921401363)1:0.5682654851127981)0.96:0.0015604858333907838,(Lychnophoraalbertinioides,#H24:::0.27922088650303584):0.3493407017642517):0.5515099025174208,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.7207791134969641)1:0.12833497293201984)0.58;
+
+begin replicate 24
+bootstrap data simulation: seed 3273
+estimation, 5 runs: seed 63659
+(((Piptolepisoleaster,#H25:1.2761116967970318::0.44219572095701065)0.98:0.5794196956307909,Piptolepisleptospermoides)0.63:0.0926477959711562,Piptolepisimbricata,(((Piptolepisgardneri,(#H23:::0.4402228611050266,(Minasiaalpestris,(((Presteliaeriopus)#H23:::0.5597771388949734,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.3053091175706487)0.67:0.14639019521348157,((Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.8409611583513554)1:0.12521434426456188)0.58:0.3559278804126932,(Lychnophoraalbertinioides,#H24:::0.1590388416486445):0.4134174219442665):0.14054308335798768)0.96:0.48494045060973034)1:0.2687666352725337)0.88:0.34481473482136804)0.47:0.0015892593045850147)#H25:0.029249579813852452::0.5578042790429893,Piptolepispseudomyrtus):0.2429838913964907);
+
+begin replicate 25
+bootstrap data simulation: seed 72988
+estimation, 5 runs: seed 12772
+((Piptolepisleptospermoides,(Piptolepisgardneri,(Piptolepisoleaster,(((Presteliaeriopus)#H23:::0.8388480814585719,(Minasiaalpestris,((Lychnophora_hatschbachii,(#H23:::0.16115191854142802,Lychnophorasouzae)0.67:1.3338644645634454)1:0.543621235704882,((Lychnophoraalbertinioides,#H24:::0.37346939010172847):0.06108063353948935,(Lychnocephaluscipoensis,(Lychnocephalustomentosus,(Lychnocephalusjolianus)#H24:::0.6265306098982715)1:0.08592038904307428):0.383590974669238)0.58:0.1283832737978848)0.96:0.37202371704214254)1:0.04755701576085341)0.88:0.34081737946784807)#H25:0.37050690639402795::0.8781075207652028)0.47:0.017467935948503818)0.98:0.22643100295543792)0.63:0.012346345193345676,(Piptolepispseudomyrtus,#H25:0.35650488280148723::0.12189247923479714):1.637711596970748,Piptolepisimbricata);
+
+begin replicate 26
+bootstrap data simulation: seed 56400
+estimation, 5 runs: seed 53593
+(Piptolepisleptospermoides,(Piptolepisimbricata,(Piptolepisoleaster,((((Presteliaeriopus)#H23:::0.6615210482049929,(Minasiaalpestris,(((Lychnophoraalbertinioides,#H24:::0.3301296900616383):0.45057098893099384,(Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.6698703099383617)1:0.07865039362485526)0.58:0.4156819652148623):0.06652842544547598,(Lychnophora_hatschbachii,(#H23:::0.33847895179500714,Lychnophorasouzae)0.67:1.8095013118029337)1:0.6126654376885835)0.96:0.45084528673303254)1:0.038177766693352905)0.88:0.5337065745237694,Piptolepisgardneri)0.47:4.976270738250799e-5)#H25:0.032448967874793566::0.8881688708779101)0.98:0.14925003726218491)0.63:0.08137130640907898,(Piptolepispseudomyrtus,#H25:1.4731569212298103::0.11183112912208994):1.7584582677583527);
+
+begin replicate 27
+bootstrap data simulation: seed 19215
+estimation, 5 runs: seed 95102
+((((Minasiaalpestris,((((Piptolepisleptospermoides,(Piptolepisimbricata)#H25:::0.958977482990803)0.63:0.07828026270396403,(Piptolepispseudomyrtus,(Piptolepisgardneri,#H25:::0.04102251700919698):2.0787432567936674):0.14542516332914313)0.98:0.03613493698232059,Piptolepisoleaster)0.47:0.6602593743238108,(#H23:::0.2468041952644696,Presteliaeriopus)0.67:0.7769953583446653)0.88:0.0)1:0.4127736933965254,(Lychnophora_hatschbachii,(Lychnophorasouzae)#H23:::0.7531958047355304)1:1.1307804793692506)0.96:0.028829320990963914,(Lychnophoraalbertinioides,#H24:::0.09278289199819778):1.3422078834088063):0.3233844521210126,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.9072171080018022)1:0.16766294703225723)0.58;
+
+begin replicate 28
+bootstrap data simulation: seed 71487
+estimation, 5 runs: seed 64828
+(Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.6712623720254232)1:0.011349556898547738,(((Minasiaalpestris,(((((Piptolepisleptospermoides,#H25:::0.33878645755038167):0.08716346614603913,Piptolepisimbricata)0.63:0.10036287392481592,Piptolepisoleaster)0.98:0.08922663516895593,(Piptolepisgardneri,(Piptolepispseudomyrtus)#H25:::0.6612135424496184):0.0959027100715087)0.47:0.5656661212532809,(Presteliaeriopus)#H23:::0.777803105743382)0.88:0.1843877989756203)1:0.4053628417343529,(Lychnophora_hatschbachii,(#H23:::0.22219689425661807,Lychnophorasouzae)0.67:1.9509981843486675)1:0.4920764584488497)0.96:0.11610684818363472,(Lychnophoraalbertinioides,#H24:::0.32873762797457684):0.0005749937666321179):0.41639507949491644)0.58;
+
+begin replicate 29
+bootstrap data simulation: seed 55194
+estimation, 5 runs: seed 28778
+((Lychnocephalustomentosus,Lychnocephaluscipoensis):0.08396514725562869,(Lychnocephalusjolianus)#H24:::0.9922044750497794,(((#H23:::0.4901477827411364,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.14547416617584571)0.67:0.23555361539352626,(((Presteliaeriopus)#H23:::0.5098522172588635,((Piptolepisoleaster,(Piptolepispseudomyrtus,(Piptolepisleptospermoides,#H25:::0.4521607818578631)0.63:0.31725223404963054):0.05424868573782706):0.08207673355536417,(Piptolepisgardneri,(Piptolepisimbricata)#H25:::0.5478392181421369)0.98:0.06018777118578847)0.47:0.49031613667080154)0.88:0.15456736015520198,Minasiaalpestris)0.96:0.4789829319708855)1:0.11506883692280127,(Lychnophoraalbertinioides,#H24:::0.0077955249502205766)1:2.905465031185815):0.29181840360564804)0.58;
+
+begin replicate 30
+bootstrap data simulation: seed 28620
+estimation, 5 runs: seed 50959
+((((Minasiaalpestris,(((((Piptolepisleptospermoides,#H25:::0.4655530999263607):0.09084451056107976,Piptolepisimbricata)0.63:0.10694609277582351,Piptolepisoleaster)0.98:0.09697280019166109,(Piptolepisgardneri,(Piptolepispseudomyrtus)#H25:::0.5344469000736394):0.014855697120103362)0.47:0.30727568001974126,(Presteliaeriopus)#H23:::0.6635280865453472)0.88:0.2395360042175857)1:0.45630091560694686,(Lychnophora_hatschbachii,(#H23:::0.33647191345465277,Lychnophorasouzae)0.67:0.06411971872687444)1:0.5537194689843445)0.96:0.09281347910507422,(Lychnophoraalbertinioides,#H24:::0.4385574153971676):0.13073081990571833):0.4042050332669907,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.5614425846028324)1:0.27388093257402146)0.58;
+
+begin replicate 31
+bootstrap data simulation: seed 69877
+estimation, 5 runs: seed 53721
+(((Lychnophoraalbertinioides,#H24:::0.44066863319086436):0.21668396666396375,((#H23:::0.2686659393346002,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.30151233210901074)0.67:0.1091850453223755,((Presteliaeriopus)#H23:::0.7313340606653997,((((Piptolepispseudomyrtus,((Piptolepisimbricata,Piptolepisleptospermoides):0.0004148468778331318)#H25:0.07531698981943531::0.9153955877365173):0.06285806731756552,Piptolepisoleaster)0.98:0.06901923098726682,Piptolepisgardneri)0.47:0.6671589822592099,(Minasiaalpestris,#H25:0.05563341519074012::0.0846044122634827)0.63:1.2133763342753165)1:0.0)0.88:0.41325924075095827)0.96:0.06345928691977122):0.4710164475092463,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.5593313668091356)1:0.23594169109682786,Lychnocephalustomentosus)0.58;
+
+begin replicate 32
+bootstrap data simulation: seed 72951
+estimation, 5 runs: seed 91914
+(((((((Piptolepisimbricata,(Piptolepisleptospermoides,#H25:::0.3972013552064414):0.3866473687586266)0.63:0.1323970584406601,(Piptolepisgardneri,(Piptolepispseudomyrtus)#H25:::0.6027986447935586):0.08746843109625303)0.98:0.03619668044974201,Piptolepisoleaster)0.47:0.5812767548050388,(Minasiaalpestris,(Presteliaeriopus)#H23:::0.6656187488581887)0.88:0.061930286981033277)1:0.4883818900118135,(Lychnophora_hatschbachii,(#H23:::0.3343812511418113,Lychnophorasouzae)0.67:0.7311512773322368)1:0.5158065683657883)0.96:0.08313776024528152,(Lychnophoraalbertinioides,#H24:::0.057920105400656854):5.2090055419504):0.28535067189186564,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.9420798945993432)1:0.024592799798909246)0.58;
+
+begin replicate 33
+bootstrap data simulation: seed 89178
+estimation, 5 runs: seed 93016
+((((Minasiaalpestris,((((Piptolepispseudomyrtus)#H25:::0.7200620254885975,(Piptolepisgardneri,Piptolepisoleaster)0.47:0.0357834430549199):0.007093551435819622,(#H25:::0.27993797451140245,(Piptolepisleptospermoides,Piptolepisimbricata)0.63:8.164405846992207e-5):0.1971377752956255)0.98:0.5658696346086032,(Presteliaeriopus)#H23:::0.694753889262473)0.88:0.08391920066541182)1:0.4839397564157117,(#H23:::0.30524611073752705,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.16881699899209707)0.67:0.22586069414592636)0.96:0.07634771714100647,(Lychnophoraalbertinioides,#H24:::0.20097249368119094):0.8124998078455731):0.4497536017631953,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.799027506318809)1:0.08644342426753564)0.58;
+
+begin replicate 34
+bootstrap data simulation: seed 31058
+estimation, 5 runs: seed 90599
+(Lychnocephalustomentosus,(Lychnocephaluscipoensis,(#H24:0.5901335817980641::0.08346307128638683,Lychnocephalusjolianus):1.2418277365911041)1:0.022313625488012308,((((Minasiaalpestris,(((Piptolepisoleaster,((Piptolepisimbricata,#H25:::0.4959512849943941):0.24259655255262313,Piptolepisleptospermoides)0.63:0.16038967497989448)0.98:0.025330870157279483,(Piptolepisgardneri,(Piptolepispseudomyrtus)#H25:::0.5040487150056059):0.19099174630404495)0.47:0.5706962377128224,#H23:::0.4114791763198585)0.88:0.017905663637005152)1:0.4024620860241654,((Presteliaeriopus)#H23:::0.5885208236801416,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.3077927810555938)0.67:0.17730837986500186)0.96:0.14753507621900364,Lychnophoraalbertinioides):0.0)#H24:0.4014652843585973::0.9165369287136131)0.58;
+
+begin replicate 35
+bootstrap data simulation: seed 19252
+estimation, 5 runs: seed 28986
+(Lychnocephalustomentosus,(((Lychnophoraalbertinioides,#H24:::0.20810163488966535):0.8236100527357466,((Minasiaalpestris,((Presteliaeriopus)#H23:::0.6530535383592462,((Piptolepisoleaster,(Piptolepisgardneri)#H25:::0.8732145016017852)0.98:0.013121585648866953,(Piptolepispseudomyrtus,(Piptolepisleptospermoides,(#H25:::0.12678549839821482,Piptolepisimbricata):2.11481497660902)0.63:0.08103864266034619):0.0861447743181509)0.47:0.5493557062772222)0.88:0.044419264837479905)1:0.3642828521061595,(Lychnophora_hatschbachii,(#H23:::0.34694646164075377,Lychnophorasouzae)0.67:1.0922939033572459)1:0.3259817891983653)0.96:0.010622147748858066):0.4923043204199964,(Lychnocephalusjolianus)#H24:::0.7918983651103346)1:0.046151335545260005,Lychnocephaluscipoensis)0.58;
+
+begin replicate 36
+bootstrap data simulation: seed 72813
+estimation, 5 runs: seed 59983
+((((Minasiaalpestris,(#H23:::0.28605852283279726,((Piptolepisoleaster,((Piptolepisleptospermoides,Piptolepisimbricata)0.63:0.005541248564712541)#H25:0.0001612873285569355::0.5965532446117721)0.98:0.08346366395855703,(Piptolepisgardneri,(#H25:2.473778531337265::0.4034467553882279,Piptolepispseudomyrtus):0.2174821633648646)0.47:0.056069199884145264):0.16272935304309227)0.88:0.49233675722284664)0.96:0.4337476616459953,((Presteliaeriopus)#H23:::0.7139414771672028,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.33073640189056885)0.67:0.12979999487410915)1:0.04748085406219002,(Lychnophoraalbertinioides,#H24:::0.43846248174307095):0.28361338642553563):0.37736465030455346,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.5615375182569291)1:0.2271357596809158)0.58;
+
+begin replicate 37
+bootstrap data simulation: seed 68497
+estimation, 5 runs: seed 74311
+(((Lychnophoraalbertinioides,#H24:::0.19796405547449794):0.9288515291970149,((#H23:::0.48647706677379016,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.44336639068244543)0.67:0.014939895037172532,(Minasiaalpestris,(((Piptolepisoleaster,(Piptolepisleptospermoides,((Piptolepisimbricata,Piptolepispseudomyrtus):0.0)#H25:0.013159919531947376::0.7322725713866639)0.63:0.1266934543858462)0.98:0.08837081714432947,(Piptolepisgardneri,#H25:0.0011802395818414349::0.2677274286133361):0.2442482025230235)0.47:0.4903208695623343,(Presteliaeriopus)#H23:::0.5135229332262099)0.88:0.03829798773964777)1:0.5415639356591643)0.96:0.07140811992117009):0.3540646519410142,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.8020359445255021)1:0.08897979795935426)0.58;
+
+begin replicate 38
+bootstrap data simulation: seed 73870
+estimation, 5 runs: seed 40376
+(((#H25:0.0013384582285104283::0.11219541298617573,Piptolepispseudomyrtus):0.637639165272087,(Piptolepisoleaster,(Piptolepisgardneri,((((Lychnophora_hatschbachii,(Lychnophorasouzae,#H23:::0.22430547206094242)0.67:0.7228304910012874)1:0.36419594267731875,(Lychnophoraalbertinioides,((Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.5959990237879366)1:0.11533986096977221)0.58:0.32536914041634396,#H24:::0.40400097621206343):0.08061460847674552):0.060585310299848996)0.96:0.48131844566132925,(Minasiaalpestris,(Presteliaeriopus)#H23:::0.7756945279390576)0.88:0.07359062068923318)1:0.0)#H25:0.87833690574423::0.8878045870138243)0.47:0.09408669010231269)0.98:0.16972422612596244)0.63:0.003987979474511453,Piptolepisimbricata,Piptolepisleptospermoides);
+
+begin replicate 39
+bootstrap data simulation: seed 82529
+estimation, 5 runs: seed 65600
+(((Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.5304563589087632)1:0.2705313435614966,Lychnocephalustomentosus):0.6156689422996025,(((((Piptolepisleptospermoides,(#H25:::0.4436128538055244,Piptolepisimbricata):0.024606729761744116)0.63:0.2503104379154426,((Piptolepisgardneri,Piptolepisoleaster)0.98:1.6921459186869277e-5,(Piptolepispseudomyrtus)#H25:::0.5563871461944756):0.02769982866948415)0.47:0.5790631443204741,Minasiaalpestris)0.88:0.08457684714015812,(#H23:::0.31919657665416457,Presteliaeriopus)0.67:0.5550400729110625)1:0.3796012092157833,(Lychnophora_hatschbachii,(Lychnophorasouzae)#H23:::0.6808034233458354)1:1.052329447150028)0.96:0.023947427649402313,(Lychnophoraalbertinioides,#H24:::0.4695436410912368):0.19484696737620066)0.58;
+
+begin replicate 40
+bootstrap data simulation: seed 27073
+estimation, 5 runs: seed 27681
+((Lychnophoraalbertinioides,(((Lychnophora_hatschbachii,(#H23:::0.23429691364382976,Lychnophorasouzae)0.67:0.8525055750189123)1:0.5142549347422126,((Presteliaeriopus)#H23:::0.7657030863561702,(Minasiaalpestris,(((Piptolepispseudomyrtus,(Piptolepisleptospermoides,(Piptolepisimbricata)#H25:::0.6337185502978615)0.63:0.1586869103895825):0.18410009101457062,Piptolepisoleaster)0.98:0.020995782977842308,(Piptolepisgardneri,#H25:::0.36628144970213844):0.388533670458566)0.47:0.49748685681285093)1:0.09354727116018881)0.88:0.37949187236801807)0.96:0.15409973081973383,(Lychnocephalusjolianus)#H24:::0.5788625210844529):0.0):0.46794704393311826,Lychnocephalustomentosus,(Lychnocephaluscipoensis,#H24:::0.42113747891554715)1:0.3771722592670866)0.58;
+
+begin replicate 41
+bootstrap data simulation: seed 25465
+estimation, 5 runs: seed 20899
+((((Minasiaalpestris,((Piptolepisoleaster,((Piptolepispseudomyrtus)#H25:::0.6679452419695626,(Piptolepisgardneri,((Piptolepisleptospermoides,#H25:::0.33205475803043744):0.40483587873842986,Piptolepisimbricata)0.63:0.18251727909138502)0.98:0.02206353475271863):0.06397882964582607)0.47:0.49255403834282135,#H23:::0.46389167833322503)0.88:0.0718157086576567)1:0.5598465629099121,((Presteliaeriopus)#H23:::0.536108321666775,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.26699959112665766)0.67:0.2864277020013613)0.96:0.028482771071168964,(Lychnophoraalbertinioides)#H24:::0.9332689456562574):0.37673973728854315,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus,#H24:::0.06673105434374257):9.554248962872316)1:0.0522806445426472)0.58;
+
+begin replicate 42
+bootstrap data simulation: seed 15559
+estimation, 5 runs: seed 58627
+(Lychnocephalusjolianus,(Lychnophoraalbertinioides,(((Minasiaalpestris,((Presteliaeriopus)#H23:::0.6794829038981325,(((Piptolepisgardneri)#H25:::0.7522318060197476,Piptolepisoleaster)0.47:2.380784491192381e-5,(Piptolepispseudomyrtus,(Piptolepisleptospermoides,(#H25:::0.24776819398025238,Piptolepisimbricata):0.22376147833997875):0.04271976022435625)0.63:0.1642743616382282)0.98:0.6029844261172981)0.88:0.06702692719068558)1:0.5037273684111698,(Lychnophora_hatschbachii,(#H23:::0.32051709610186746,Lychnophorasouzae)0.67:0.971168780105626)1:0.49510786208318397)0.96:0.0705222490674179,#H24:::0.23955205403774119):0.0001557900143466414):0.2671959072434734,(Lychnocephalustomentosus,(Lychnocephaluscipoensis)#H24:::0.7604479459622588)1:0.2734424651979207)0.58;
+
+begin replicate 43
+bootstrap data simulation: seed 91339
+estimation, 5 runs: seed 9153
+(Lychnocephalusjolianus,(#H24:::0.08864473225261382,((Minasiaalpestris,((((Piptolepisleptospermoides,((Piptolepisimbricata,Piptolepispseudomyrtus):0.0)#H25:0.09480826995261697::0.5003269468371419)0.63:0.2249792001805263,Piptolepisoleaster)0.98:0.08641328372101081,(Piptolepisgardneri,#H25:0.0009352619304776226::0.4996730531628582):0.13419142769243658)0.47:0.3115757612526111,(Presteliaeriopus)#H23:::0.5366177889555919)0.88:0.2761611110522085)1:0.4906378123818908,(Lychnophoraalbertinioides,(#H23:::0.46338221104440813,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.28707160858354025)0.67:0.18858472087497097):0.07275717331348705)0.96:0.24514829881585576):0.14295199073119405,(Lychnocephalustomentosus,(Lychnocephaluscipoensis)#H24:::0.9113552677473862)1:0.017274565495626882)0.58;
+
+begin replicate 44
+bootstrap data simulation: seed 17532
+estimation, 5 runs: seed 65659
+((((#H23:::0.38692643585632697,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.3478689530300071)0.67:0.1007935945817933,(((Piptolepisoleaster,(Piptolepisleptospermoides)#H25:::0.5041634666119609)0.98:0.17253488881324358,(Piptolepisgardneri,(Piptolepispseudomyrtus,(Piptolepisimbricata,#H25:::0.4958365333880391)0.63:0.2681932751767807):0.05381658261979317):0.07823811624513059)0.47:0.4980611937750272,(Minasiaalpestris,(Presteliaeriopus)#H23:::0.6130735641436731)0.88:0.08341181801830437)1:0.4495090152066845)0.96:0.03346290998878708,(Lychnophoraalbertinioides,#H24:::0.4784070224324066):0.1775667441997166):0.4554693400467829,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.5215929775675934)1:0.3985134333363294)0.58;
+
+begin replicate 45
+bootstrap data simulation: seed 58959
+estimation, 5 runs: seed 91204
+(Lychnocephalustomentosus,(Lychnocephaluscipoensis,(#H24:0.8120786928984318::0.04697528070518809,Lychnocephalusjolianus):2.6876030799237887)1:0.12244235654104302,((Lychnophoraalbertinioides,((Lychnophora_hatschbachii,(Lychnophorasouzae)#H23:::0.7610951370291258)1:0.9022284408016541,((Minasiaalpestris,(((((Piptolepisleptospermoides,(Piptolepispseudomyrtus)#H25:::0.5814794558703215):0.3872058374468145,Piptolepisimbricata)0.63:0.19626916412598117,Piptolepisgardneri)0.47:0.005794867859563377,Piptolepisoleaster)0.98:0.17282476783725212,#H25:::0.41852054412967854):0.5228406434067153)1:0.1260740502138234,(#H23:::0.2389048629708742,Presteliaeriopus)0.67:1.1490991184756756)0.88:0.3338716623628948)0.96:0.09269031058977754):0.0)#H24:0.3670283400328274::0.9530247192948119)0.58;
+
+begin replicate 46
+bootstrap data simulation: seed 51436
+estimation, 5 runs: seed 67607
+((((Lychnophora_hatschbachii,(#H23:::0.17601688602784224,Lychnophorasouzae)0.67:2.5274248145271607)1:0.5542128046749693,((Presteliaeriopus)#H23:::0.8239831139721577,((#H25:::0.07363908651750492,Minasiaalpestris)0.63:0.5437400131437421,(Piptolepisoleaster,((Piptolepisleptospermoides,Piptolepisimbricata):0.12358114452583314,(Piptolepispseudomyrtus,(Piptolepisgardneri)#H25:::0.926360913482495):0.16583424039870256)0.98:0.032572892593215795)0.47:0.7294918148381065)1:0.04834489524576383)0.88:0.35985224809129596)0.96:0.07370482590236639,(Lychnophoraalbertinioides,#H24:::0.20095867152828678):0.883284374662758):0.3938871645975099,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.7990413284717133)1:0.22570204233292115)0.58;
+
+begin replicate 47
+bootstrap data simulation: seed 84569
+estimation, 5 runs: seed 19079
+((((Minasiaalpestris,((Presteliaeriopus)#H23:::0.5703856240557659,((Piptolepispseudomyrtus)#H25:::0.5416666800840122,((((Piptolepisleptospermoides,#H25:::0.4583333199159878):0.06924623433784258,Piptolepisimbricata)0.63:0.25370455380528834,Piptolepisoleaster)0.98:0.11438592725386898,Piptolepisgardneri)0.47:0.02109218938951131):0.42693112021587487)0.88:0.0340754843577012)1:0.540033738856243,(#H23:::0.4296143759442342,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.17819512157742676)0.67:0.3322287227723522)0.96:0.057021356368809305,(Lychnophoraalbertinioides,#H24:::0.11834881267010618):1.1139128675348435):0.3405871581179579,Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.8816511873298938)1:0.1554258831164835)0.58;
+
+begin replicate 48
+bootstrap data simulation: seed 56524
+estimation, 5 runs: seed 5447
+((Lychnocephalustomentosus,(Lychnocephaluscipoensis,#H24:::0.06469002229792321):9.882423068769254)1:0.1108015918722457,(((Minasiaalpestris,((Piptolepisoleaster,(Piptolepisgardneri,((Piptolepisimbricata,(Piptolepisleptospermoides)#H25:::0.8666632443176514)0.63:0.2838822666199016,(Piptolepispseudomyrtus,#H25:::0.13333675568234862):0.2838822666199016):0.0475498895692899)0.47:0.08421439013198044)0.98:0.3325804997189824,(Presteliaeriopus)#H23:::0.5089113659814741)0.88:0.2086577788058564)1:0.49991763521778565,(#H23:::0.49108863401852587,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.20369403136570696)0.67:0.20510007271600086)0.96:0.06537287639769246,(Lychnophoraalbertinioides)#H24:::0.9353099777020768):0.3413465191266556,Lychnocephalusjolianus)0.58;
+
+begin replicate 49
+bootstrap data simulation: seed 55683
+estimation, 5 runs: seed 97517
+(Piptolepisleptospermoides,(Piptolepisimbricata,(Piptolepisoleaster,(Piptolepisgardneri,(Minasiaalpestris,((#H23:::0.37098257601412543,(((Lychnophoraalbertinioides,#H24:::0.2858885546145115):0.40544826132555467,(Lychnocephalustomentosus,(Lychnocephaluscipoensis,(Lychnocephalusjolianus)#H24:::0.7141114453854884)1:0.04085819107493105)0.58:0.4397865286783266):0.10728317887834195,((Lychnophora_hatschbachii,Lychnophorasouzae)1:0.3739476949082971,(Presteliaeriopus)#H23:::0.6290174239858746)0.67:0.11634171321392234)1:0.5570598636746155)0.88:0.0)#H25:0.0::0.7501312713261329)0.96:0.9317445971826047)0.47:0.04669076468514079)0.98:0.06507426968175035)0.63:0.06754684145147069,(#H25:0.00044848377988237657::0.2498687286738671,Piptolepispseudomyrtus):0.12282057585109304);
+
+begin replicate 50
+bootstrap data simulation: seed 40808
+estimation, 5 runs: seed 79960
+(Lychnocephaluscipoensis,((Lychnophoraalbertinioides,(((#H23:::0.32189900981332065,(Lychnophora_hatschbachii,Lychnophorasouzae)1:0.2666321442531971)0.67:0.21646186892408983,((Minasiaalpestris,(Presteliaeriopus)#H23:::0.6781009901866794)0.88:0.1254075805327196,((Piptolepisoleaster,(Piptolepisgardneri,#H25:0.0::0.10739631296757389):1.6411420888192787)0.47:0.024437890831194655,(Piptolepisleptospermoides,((Piptolepispseudomyrtus,Piptolepisimbricata):0.011838398074652865)#H25:0.11816629712879802::0.8926036870324261)0.63:0.17148245560022193)0.98:0.6292703412057196)1:0.4886893746813344)0.96:0.1231489463578698)#H24:0.00034647704999650627::0.9581999028535564):0.318534571654707,(Lychnocephalusjolianus,#H24:0.15464477347041408::0.041800097146443616):1.9147655545333524)1:0.1349374397972877,Lychnocephalustomentosus)0.58;

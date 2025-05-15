@@ -1,0 +1,2 @@
+
+ERROR found on SNaQ for run 8 seed 90115: ErrorException("strange qnet when net has node 1 Bad Diamond I: qnet should have only one of the gammaz if it does not have node, but it has two")

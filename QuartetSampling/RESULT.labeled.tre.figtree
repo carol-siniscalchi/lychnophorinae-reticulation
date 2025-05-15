@@ -1,0 +1,74 @@
+#NEXUS
+begin trees;
+
+	tree tree1 = [&R] (Gorceixia_decurrens[&qf=0.7883435582822086]:0.002907520565190055,(Blanchetiaheterotricha[&qf=0.7851458885941645]:0.03700439381339105,((Cololobus_rupestris_E2880[&qf=0.6624685138539043]:0.0455630109017528,(Centratherum_punctatum[&qf=0.7225130890052356]:0.07070822796574487,((Vernonanthura_polyanthes_E2868[&qf=0.6430260047281324]:0.069553268038847,Piptocarpha_macropoda_E2871[&qf=0.5664160401002506]:0.043959659095456446)[&label=QS6,freq=0.9,qc=0.66,qd=0.4,qi=0.5,reps=1e+02,score=0.66/0.4/0.5]:0.0072446217867604395,(Allocephalus_gamolepis[&qf=0.7083333333333334]:0.08045781935709281,Pseudostiffita_kingii[&qf=0.5288461538461539]:0.11364008409005717)[&label=QS7,freq=0.91,qc=0.56,qd=0,qi=0.55,reps=1e+02,score=0.56/0/0.55]:0.0041630581930311664)[&label=QS5,freq=1,qc=1,qd=NA,qi=1,reps=1e+02,score=1/NA/1]:0.01531624437453571)[&label=QS4,freq=0.76,qc=0.45,qd=0.12,qi=0.7,reps=1e+02,score=0.45/0.12/0.7]:0.0027817498221718202)[&label=QS3,freq=0.79,qc=0.26,qd=0,qi=0.85,reps=1e+02,score=0.26/0/0.85]:0.005189536158363889,((Eremanthus_crotonoides[&qf=0.7013698630136986]:0.017980163110646902,(Anteremanthuspiranii[&qf=0.6764705882352942]:0.010913035128455954,Hololepis_pedunculata[&qf=0.7777777777777778]:0.00861862109279583)[&label=QS10,freq=0.76,qc=0.37,qd=0.57,qi=0.84,reps=70,score=0.37/0.57/0.84]:0.0010229889547739173)[&label=QS9,freq=0.91,qc=0.69,qd=0.25,qi=0.86,reps=1e+02,score=0.69/0.25/0.86]:0.0010995500104276426,(((Chronopappus_bifrons[&qf=0.751937984496124]:0.009024911958815381,(Heterocomalanuginosa[&qf=0.7847682119205298]:0.0027550819606941934,Heterocoma_ekmaniana[&qf=0.7654723127035831]:0.003554135316871806)[&label=QS14,freq=1,qc=1,qd=NA,qi=1,reps=70,score=1/NA/1]:0.009636550508804577)[&label=QS13,freq=1,qc=1,qd=NA,qi=0.99,reps=1e+02,score=1/NA/0.99]:0.004136352559689703,(Anteremanthushatschbachii[&qf=0.6467236467236467]:0.010935925758088815,(Lychnophora_morii[&qf=0.7751937984496124]:0.009857442733312882,((Paralychnophora_harleyi[&qf=0.8045112781954887]:0.003564677290182888,Paralychnophoraatkinsiae[&qf=0.72]:0.01517394686018242)[&label=QS18,freq=1,qc=1,qd=NA,qi=1,reps=1e+02,score=1/NA/1]:0.005269717174370097,(Paralychnophoraglaziouana[&qf=0.7281553398058253]:0.010129989904257383,Maschalostachysmarkgrafii[&qf=0.6851385390428212]:0.010096926258979913)[&label=QS19,freq=0.63,qc=0.049,qd=0,qi=0.89,reps=1e+02,score=0.049/0/0.89]:0.0012937036318957037)[&label=QS17,freq=0.94,qc=0.75,qd=0.67,qi=0.94,reps=1e+02,score=0.75/0.67/0.94]:0.001292141614800806)[&label=QS16,freq=0.97,qc=0.8,qd=0,qi=0.97,reps=1e+02,score=0.8/0/0.97]:0.0009440189832632217)[&label=QS15,freq=0.41,qc=-0.021,qd=0,qi=0.94,reps=1e+02,score=-0.021/0/0.94]:0.0006332101154221118)[&label=QS12,freq=0.73,qc=0.32,qd=0.58,qi=0.88,reps=1e+02,score=0.32/0.58/0.88]:0.0013265761498372037,(Proteopisargentea[&qf=0.4371069182389937]:0.030038199125923648,((Minasiaalpestris[&qf=0.861878453038674]:0.0034407491074087623,(Minasiascapigera[&qf=0.628032345013477]:0.025198329185922113,(Minasia_pereirae[&qf=0.6082474226804123]:0.003319420594587436,Minasiasplettiae[&qf=0.6174496644295302]:0.01384289673617728)[&label=QS24,freq=0,qc=-0.44,qd=0.26,qi=0.99,reps=70,score=-0.44/0.26/0.99]:0.00024221884086069817)[&label=QS23,freq=0.97,qc=0.79,qd=0,qi=0.91,reps=1e+02,score=0.79/0/0.91]:0.0005583447454698849)[&label=QS22,freq=1,qc=1,qd=NA,qi=1,reps=1e+02,score=1/NA/1]:0.005626511804088697,(((Presteliaeriopus[&qf=0.775811209439528]:0.011461257722530963,((Lychnophorasouzae[&qf=0.8057971014492754]:0.00855815100586628,Lychnophora_hatschbachii[&qf=0.7768115942028986]:0.008143355888529104)[&label=QS29,freq=1,qc=1,qd=NA,qi=1,reps=1e+02,score=1/NA/1]:0.0019263410049881434,(Lychnophoraalbertinioides[&qf=0.762962962962963]:0.00547989131958877,(Lychnocephalustomentosus[&qf=0.762532981530343]:0.003589693700103623,(Lychnocephaluscipoensis[&qf=0.736231884057971]:0.0041760879597530585,Lychnocephalusjolianus[&qf=0.770392749244713]:0.007694242843783947)[&label=QS32,freq=0.86,qc=0.42,qd=0,qi=0.83,reps=70,score=0.42/0/0.83]:0.0015207970071920626)[&label=QS31,freq=0.92,qc=0.59,qd=0,qi=0.99,reps=1e+02,score=0.59/0/0.99]:0.0015342595968737805)[&label=QS30,freq=0.69,qc=0.36,qd=0.14,qi=0.89,reps=1e+02,score=0.36/0.14/0.89]:0.0007750609730940816)[&label=QS28,freq=0.98,qc=0.9,qd=1,qi=0.98,reps=1e+02,score=0.9/1/0.98]:0.0016383984535576145)[&label=QS27,freq=0.84,qc=0.53,qd=0.43,qi=0.9,reps=1e+02,score=0.53/0.43/0.9]:0.0012529697872014924,(Piptolepisoleaster[&qf=0.7134146341463414]:0.0053499666717078285,((Piptolepisriparia[&qf=0.6198347107438017]:0.006682881307617386,((Piptolepisimbricata[&qf=0.4805194805194805]:0.005887866467770114,Piptolepisglaziouana[&qf=0.47593582887700536]:0.005138600943356033)[&label=QS37,freq=0.45,qc=0.046,qd=0.73,qi=0.75,reps=1e+02,score=0.046/0.73/0.75]:0.0004900048131453562,(Piptolepisleptospermoides[&qf=0.4909090909090909]:0.006692971673808177,(Piptolepispilosa[&qf=0.621301775147929]:0.007608377653457382,Piptolepiscorymbosa[&qf=0.5584045584045584]:0.017140911091928272)[&label=QS39,freq=0.99,qc=0.89,qd=0,qi=1,reps=70,score=0.89/0/1]:0.0018207068360405441)[&label=QS38,freq=0.14,qc=-0.46,qd=0.11,qi=0.84,reps=1e+02,score=-0.46/0.11/0.84]:0.0003031959771672047)[&label=QS36,freq=0.7,qc=0.27,qd=0.64,qi=0.83,reps=1e+02,score=0.27/0.64/0.83]:0.0006111727692045438)[&label=QS35,freq=0.83,qc=0.5,qd=0.57,qi=0.84,reps=1e+02,score=0.5/0.57/0.84]:0.0006207084792469633,((Piptolepisprocumbens[&qf=0.6097560975609756]:0.004227201899414431,(Piptolepiscampestris[&qf=0.5964391691394659]:0.004497064915338243,Piptolepisgardneri[&qf=0.6067073170731707]:0.003119585710357402)[&label=QS42,freq=0.84,qc=0.36,qd=0,qi=0.89,reps=70,score=0.36/0/0.89]:0.0008273446154011168)[&label=QS41,freq=0.73,qc=0.3,qd=1,qi=0.82,reps=1e+02,score=0.3/1/0.82]:0.0006266593147905894,(Piptolepismonticola[&qf=0.7043010752688172]:0.004056478519134067,(Piptolepisbuxoides[&qf=0.5672371638141809]:0.02432923025287481,(Piptolepisschultziana[&qf=0.495]:0.004635060683065326,(Piptolepis_ericoides[&qf=0.5365853658536586]:0.00360965052842196,Piptolepispseudomyrtus[&qf=0.4527777777777778]:0.006069166718214685)[&label=QS46,freq=0.017,qc=-0.33,qd=0.75,qi=0.86,reps=70,score=-0.33/0.75/0.86]:0.0002789419075531863)[&label=QS45,freq=0.44,qc=-0.32,qd=0.047,qi=0.77,reps=1e+02,score=-0.32/0.047/0.77]:0.00044810068838882207)[&label=QS44,freq=0.92,qc=0.72,qd=0.29,qi=0.89,reps=1e+02,score=0.72/0.29/0.89]:0.0005425275438886798)[&label=QS43,freq=0.79,qc=0.26,qd=0,qi=0.85,reps=1e+02,score=0.26/0/0.85]:0.0007006366058363304)[&label=QS40,freq=0.096,qc=-0.14,qd=0.96,qi=0.83,reps=1e+02,score=-0.14/0.96/0.83]:0.0003153180083878617)[&label=QS34,freq=0.57,qc=0.26,qd=0.18,qi=0.8,reps=1e+02,score=0.26/0.18/0.8]:0.0007042905545066548)[&label=QS33,freq=1,qc=1,qd=NA,qi=1,reps=1e+02,score=1/NA/1]:0.0020488497724635785)[&label=QS26,freq=0.56,qc=0.26,qd=0.17,qi=0.79,reps=1e+02,score=0.26/0.17/0.79]:0.0009190090252818341,((Lychnophorapasserina[&qf=0.6476190476190476]:0.01233441236884286,(Lychnophora_haplopappa_cor[&qf=0.562874251497006]:0.006101808640891878,((Lychnophorauniflora[&qf=0.412987012987013]:0.014864908182046468,(Lychnophoraitacambirensis[&qf=0.5230769230769231]:0.007158749043968642,Lychnophorasalicifolia[&qf=0.44476744186046513]:0.006467592761912731)[&label=QS52,freq=0.5,qc=0.056,qd=0.89,qi=0.51,reps=70,score=0.056/0.89/0.51]:0.00029809488460283813)[&label=QS51,freq=0.2,qc=-0.29,qd=0.21,qi=0.83,reps=1e+02,score=-0.29/0.21/0.83]:0.00033512114851636475,(Lychnophora_granmogolensis[&qf=0.5949367088607594]:0.006395268377271868,(Lychnophoraericoides[&qf=0.6843434343434344]:0.010252197701822835,(Lychnophora_brunonioides[&qf=0.6537313432835821]:0.0038023409112019316,Lychnophoracandelabrum[&qf=0.7160493827160493]:0.003246506135202466)[&label=QS55,freq=1,qc=1,qd=NA,qi=0.97,reps=70,score=1/NA/0.97]:0.001531465999225997)[&label=QS54,freq=0.82,qc=0.32,qd=0,qi=0.95,reps=1e+02,score=0.32/0/0.95]:0.0013487781445635167)[&label=QS53,freq=0.35,qc=0.00053,qd=0.98,qi=0.72,reps=1e+02,score=0.00053/0.98/0.72]:0.0003840086824233034)[&label=QS50,freq=0.81,qc=0.5,qd=0.24,qi=0.91,reps=1e+02,score=0.5/0.24/0.91]:0.0008750599883852023)[&label=QS49,freq=0.23,qc=-0.45,qd=0.029,qi=0.9,reps=1e+02,score=-0.45/0.029/0.9]:0.0007781116199098754)[&label=QS48,freq=1,qc=1,qd=NA,qi=1,reps=1e+02,score=1/NA/1]:0.0032580894586452885,((Eremanthus_elaeagnus_E2875[&qf=0.5107033639143731]:0.010793507705006436,((Eremanthus_erythropappus[&qf=0.788659793814433]:0.0061770986833967045,(Eremanthus_capitatus_E2873[&qf=0.7418397626112759]:0.004496783095958969,Eremanthus_uniflorus_E2874[&qf=0.764505119453925]:0.004540930147470966)[&label=QS60,freq=1,qc=1,qd=NA,qi=1,reps=70,score=1/NA/1]:0.0027983860722118497)[&label=QS59,freq=1,qc=1,qd=NA,qi=1,reps=1e+02,score=1/NA/1]:0.0020564362818174227,(Eremanthus_reticulatus_E2876[&qf=0.5726027397260274]:0.01050992861877068,(Eremanthus_incanus[&qf=0.6357142857142857]:0.011230918997078907,(Eremanthus_auriculatus[&qf=0.6767441860465117]:0.006589099048869407,(Piptolepisrosmarinifolia[&qf=0.7466666666666667]:0.004133121291929182,Piptolepispabstii[&qf=0.638121546961326]:0.006671487055710205)[&label=QS64,freq=0.96,qc=0.81,qd=0.67,qi=0.97,reps=70,score=0.81/0.67/0.97]:0.0007900631159238081)[&label=QS63,freq=0.65,qc=0.062,qd=0,qi=0.93,reps=1e+02,score=0.062/0/0.93]:0.0014112931789643582)[&label=QS62,freq=0.51,qc=0.00036,qd=0,qi=0.9,reps=1e+02,score=0.00036/0/0.9]:0.000955221398834194)[&label=QS61,freq=0.69,qc=0.1,qd=0,qi=0.93,reps=1e+02,score=0.1/0/0.93]:0.0009735155278355948)[&label=QS58,freq=0.3,qc=-0.038,qd=0.67,qi=0.69,reps=1e+02,score=-0.038/0.67/0.69]:0.00027900396651025014)[&label=QS57,freq=0.77,qc=0.37,qd=0.74,qi=0.83,reps=1e+02,score=0.37/0.74/0.83]:0.0005570155906894895,(((Lychnophorella_leucodendron_cor[&qf=0.8542857142857143]:0.004010358754466284,Lychnophora_santosii[&qf=0.844632768361582]:0.0034335571746523224)[&label=QS67,freq=1,qc=1,qd=NA,qi=1,reps=1e+02,score=1/NA/1]:0.0019408452827872006,(Eremanthushatschbachii[&qf=0.7622549019607843]:0.004041733476892221,(Lychnophora_mellosilvae[&qf=0.7237163814180929]:0.0032846948412148763,(Lychnophorellaregis[&qf=0.7805555555555556]:0.007922850430017638,Lychnophorellabishopii[&qf=0.7099447513812155]:0.004751772630610257)[&label=QS70,freq=0.88,qc=0.48,qd=0,qi=0.86,reps=70,score=0.48/0/0.86]:0.0007316946524295521)[&label=QS69,freq=0.56,qc=0.33,qd=0.053,qi=0.86,reps=1e+02,score=0.33/0.053/0.86]:0.000504310125683419)[&label=QS68,freq=1,qc=1,qd=NA,qi=1,reps=1e+02,score=1/NA/1]:0.001981399439463091)[&label=QS66,freq=0.88,qc=0.48,qd=0,qi=0.95,reps=1e+02,score=0.48/0/0.95]:0.0009710757396597191,Eremanthus_veadeiroensis_E2872[&qf=0.7928994082840237]:0.00951304908778393)[&label=QS65,freq=0.92,qc=0.7,qd=0.86,qi=0.87,reps=1e+02,score=0.7/0.86/0.87]:0.0010128590833917727)[&label=QS56,freq=0.9,qc=0.67,qd=0.44,qi=0.94,reps=1e+02,score=0.67/0.44/0.94]:0.0010524143569186203)[&label=QS47,freq=0.65,qc=0.21,qd=0.67,qi=0.78,reps=1e+02,score=0.21/0.67/0.78]:0.0005503367778173484)[&label=QS25,freq=0.88,qc=0.61,qd=0.6,qi=0.86,reps=1e+02,score=0.61/0.6/0.86]:0.001898727661343414)[&label=QS21,freq=0.81,qc=0.52,qd=0.11,qi=0.94,reps=1e+02,score=0.52/0.11/0.94]:0.006259758475088814)[&label=QS20,freq=0.078,qc=-0.19,qd=0.76,qi=0.77,reps=1e+02,score=-0.19/0.76/0.77]:0.0003334355393606577)[&label=QS11,freq=0.69,qc=0.27,qd=0.56,qi=0.8,reps=1e+02,score=0.27/0.56/0.8]:0.0008547442890692707)[&label=QS8,freq=1,qc=1,qd=NA,qi=1,reps=1e+02,score=1/NA/1]:0.012508143118360777)[&label=QS2,freq=1,qc=1,qd=NA,qi=1,reps=1e+02,score=1/NA/1]:0.011077502542071755)[&label=QS1,freq=1,qc=1,qd=NA,qi=1,reps=70,score=1/NA/1]:0.022495688960357852,Albertinia_brasiliensis[&qf=0.8123167155425219]:0.0022076414333432703):0.0;
+
+end;
+
+
+
+begin figtree;
+
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="freq";
+	set appearance.branchLineWidth=1.0;
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set nodeBars.barWidth=4.0;
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleAxis.significantDigits=4;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set scaleBar.significantDigits=4;
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

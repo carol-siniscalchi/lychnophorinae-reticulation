@@ -1,0 +1,236 @@
+optimization of topology, BL and inheritance probabilities using:
+ hmax = 4,
+ tolerance parameters: ftolRel=1.0e-6, ftolAbs=1.0e-6,
+                       xtolAbs=0.001, xtolRel=0.01.
+ max number of failed proposals = 75, liktolAbs = 1.0e-6.
+rootname for files: net4
+BEGIN: 10 runs on starting tree (Heterocoma_ekmaniana,(((Paralychnophoraatkinsiae,Paralychnophora_harleyi)1:1.6112189532070438,Maschalostachysmarkgrafii)1:0.30614524909903007,(Anteremanthushatschbachii,(((Lychnophora_mellosilvae,(((Anteremanthuspiranii,(Hololepis_pedunculata)#H22:::0.6301142445413163)0.79:0.37413860499320506,(Eremanthus_crotonoides,#H22:::0.3698857554586838):0.37413860499320506)1:0.027890931504180476)#H21:0.0::0.5097042354545942)0.93:0.3212190147402266,((Gorceixia_decurrens,Albertinia_brasiliensis)1:5.543825287968014,#H21:9.967676750341278::0.49029576454540585):0.5385808079694233)0.6:0.0631719062133972)#H23:0.08031248642451497::0.7853321575983815)0.65:0.1500564173737483):1.0298382481660031,(Chronopappus_bifrons,#H23:0.08255292603124546::0.2146678424016185):0.0790216549033844)1;
+
+main seed 5678
+seed: 5678 for run 1, 2023-02-15 13:23:43.518
+
+BEGIN SNaQ for run 1, seed 5678 and hmax 4
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 147 (failures: 75) with -loglik=592.57181 and ht_min=[0.51139, 0.26702, 0.25862, 0.0, 0.0, 0.33171, 5.5643, 9.93939, 0.50336, 0.0, 0.14886, 0.16193, 0.83841, 1.37734, 0.14175, 0.19729, 0.11617, 0.81804, 0.08026]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 2		 2		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 49		 49		 1	 |	 1		 1		 --
+mvtarget	 31		 31		 0	 |	 0		 0		 --
+chdir		 29		 29		 0	 |	 1		 1		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 36		 4		 0	 |	 0		 0		 --
+Total		 147		 115		 2	 |	 2		 2		 1
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 0.5
+(Heterocoma_ekmaniana,Chronopappus_bifrons,(((Anteremanthushatschbachii,(((Lychnophora_mellosilvae,#H21:0.0::0.4886147710996156)0.93:0.3317143996329094,((Gorceixia_decurrens,Albertinia_brasiliensis)1:5.564296760272738,(((Anteremanthuspiranii,(Hololepis_pedunculata)#H22:::0.6293843220030408)0.79:0.37609329951246523,(Eremanthus_crotonoides,#H22:::0.3706156779969591):0.37609329951246523)1:0.0)#H21:9.939385149543144::0.5113852289003844):0.5033612079235299)0.6:0.0)#H23:0.14886404345268953::0.7329801141080007)0.65:0.16192795683952657,((Paralychnophoraatkinsiae,(Paralychnophora_harleyi)#H24:::0.910649386965011)1:2.28575440489348,(Maschalostachysmarkgrafii,#H24:::0.08935061303498903):2.28575440489348)1:0.25862286321371086):0.8384064349071384,#H23:1.3773386298227697::0.2670198858919993):0.141752593425438)1;
+---------------------
+seed: 86783 for run 2, 2023-02-15 14:7:17.029
+
+BEGIN SNaQ for run 2, seed 86783 and hmax 4 changed starting topology by NNI move
+
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 124 (failures: 75) with -loglik=718.61047 and ht_min=[0.31549, 0.44554, 0.20542, 0.0, 1.61619, 0.31304, 0.33581, 1.05376, 0.16508, 0.1045, 0.0, 5.68368, 10.0, 0.16128, 0.0343, 0.13867, 1.03019, 1.41164, 0.15271, 0.55072]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 3		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 33		 33		 1	 |	 74		 74		 --
+mvtarget	 31		 22		 0	 |	 73		 73		 --
+chdir		 26		 18		 1	 |	 147		 147		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 31		 9		 0	 |	 1		 1		 --
+Total		 124		 83		 3	 |	 295		 295		 76
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 0.3
+(((Anteremanthushatschbachii,(((((Gorceixia_decurrens,Albertinia_brasiliensis)1:5.6836776245764025,#H21:9.99999999998585::0.44553942604306845):0.3358146706601982,(((Eremanthus_crotonoides,(Hololepis_pedunculata,#H22:::0.31548925493472674)0.79:1.053764985654828):0.16508382168164312,(Anteremanthuspiranii)#H22:::0.6845107450652732)1:0.0)#H21:0.10450174799132723::0.5544605739569315)0.93:0.0,Lychnophora_mellosilvae)0.6:0.1612753547942722)#H23:0.034296823132462885::0.7945778850748653)0.65:0.13867010048479883,((Paralychnophoraatkinsiae,(Paralychnophora_harleyi,#H24:::0.0):0.5507177893035446)1:1.6161914789026435,(Maschalostachysmarkgrafii)#H24:::1.0)1:0.31304301531988976):1.0301937211056091,(Chronopappus_bifrons,#H23:1.4116436537806236::0.2054221149251347):0.15271016024256323,Heterocoma_ekmaniana)1;
+---------------------
+seed: 40662 for run 3, 2023-02-15 14:49:25.967
+
+BEGIN SNaQ for run 3, seed 40662 and hmax 4 changed starting topology by NNI move
+
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 178 (failures: 75) with -loglik=614.10609 and ht_min=[0.45214, 0.22021, 0.00851, 1.72933, 0.07042, 0.0, 0.29205, 5.4685, 9.99166, 0.59313, 0.00922, 0.12849, 0.14599, 1.0465, 3.62025, 0.11544, 1.49452, 0.32579, 0.10223, 0.1968, 0.11767]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 2		 2		 2	 |	 NA 		 NA 		 NA 
+mvorigin	 45		 45		 7	 |	 1		 1		 --
+mvtarget	 41		 41		 0	 |	 0		 0		 --
+chdir		 46		 46		 1	 |	 1		 1		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 44		 9		 0	 |	 9		 9		 --
+Total		 178		 143		 10	 |	 11		 11		 3
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 0.3
+(Paralychnophora_harleyi,(Maschalostachysmarkgrafii,(((Anteremanthushatschbachii,(((Lychnophora_mellosilvae,(((Anteremanthuspiranii,(Hololepis_pedunculata)#H22:::0.6258110573621526)0.79:0.3775774086812698,(Eremanthus_crotonoides,#H22:::0.3741889426378474):0.3775774086812698)1:0.07041622043884402)#H21:0.0::0.5478595839438695)0.93:0.2920518834959265,((Gorceixia_decurrens,Albertinia_brasiliensis)1:5.468497468173728,#H21:9.991658170103701::0.45214041605613053):0.5931258745338185)0.6:0.00922359723769702)#H23:0.12849296778644984::0.7797885753227007)0.65:0.1459945050765577,((Chronopappus_bifrons,#H23:3.6202456831410754::0.2202114246772993):0.11544376831181873,Heterocoma_ekmaniana)1:1.0464968016151346):0.0)#H26:0.32579071167248763::0.9914883360466249):1.7293313482944073,(Paralychnophoraatkinsiae,#H26:0.10223323998611611::0.008511663953375093):1.4945166284304916)1;
+---------------------
+seed: 22598 for run 4, 2023-02-15 15:21:26.474
+
+BEGIN SNaQ for run 4, seed 22598 and hmax 4 changed starting topology by NNI move
+
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 659 (failures: 75) with -loglik=608.48427 and ht_min=[0.42726, 0.45222, 0.22796, 0.04862, 1.02204, 1.75771, 0.25411, 0.0, 0.64254, 0.0, 0.29382, 5.502, 9.99928, 0.59374, 0.03556, 0.10303, 0.15098, 0.89648, 0.0, 0.19487, 9.99812]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 20		 16		 5	 |	 NA 		 NA 		 NA 
+mvorigin	 173		 173		 28	 |	 0		 0		 --
+mvtarget	 160		 146		 0	 |	 0		 0		 --
+chdir		 152		 133		 8	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 154		 29		 0	 |	 24		 24		 --
+Total		 659		 497		 41	 |	 24		 24		 3
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 0.1
+(((Anteremanthushatschbachii,(((Lychnophora_mellosilvae,((((Hololepis_pedunculata,#H24:::0.4272634466860994):0.6425439453474767,Eremanthus_crotonoides)1:0.19487191944656368,(Anteremanthuspiranii)#H24:::0.5727365533139006):0.0)#H21:7.934945432241637e-8::0.5477769153964683)0.93:0.2938205403232599,((Gorceixia_decurrens,Albertinia_brasiliensis)1:5.50199991160171,#H21:9.999282948523641::0.45222308460353167):0.5937351320843965)0.6:0.03555800465521792)#H23:0.10302718429498468::0.7720445995210711)0.65:0.1509819552596716,((Maschalostachysmarkgrafii)#H32:::0.951379198237004,(Paralychnophoraatkinsiae,(Paralychnophora_harleyi,#H32:::0.04862080176299596):9.998119696486315):1.7577106805518243):0.25411139973079866):1.022044358892523,Chronopappus_bifrons,(Heterocoma_ekmaniana,#H23:0.8964750309567006::0.2279554004789289):0.0)1;
+---------------------
+seed: 5236 for run 5, 2023-02-15 17:13:9.105
+
+BEGIN SNaQ for run 5, seed 5236 and hmax 4
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 150 (failures: 75) with -loglik=605.47522 and ht_min=[0.51144, 0.2163, 0.05476, 1.03368, 1.76781, 0.24949, 0.0, 0.0, 0.33461, 5.58733, 9.97455, 0.50757, 0.06867, 0.05914, 0.14728, 0.34861, 0.08543, 6.61713, 0.19753, 0.11708]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 45		 45		 3	 |	 0		 0		 --
+mvtarget	 32		 32		 0	 |	 0		 0		 --
+chdir		 37		 37		 0	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 35		 7		 0	 |	 0		 0		 --
+Total		 150		 122		 4	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+((((Paralychnophoraatkinsiae,(Paralychnophora_harleyi,#H24:::0.05476319333387608):6.617125887195213)1:1.7678070362000486,(Maschalostachysmarkgrafii)#H24:::0.9452368066661239)1:0.24948872731944513,(Anteremanthushatschbachii,(((Lychnophora_mellosilvae,#H21:0.0::0.4885601951887274)0.93:0.3346147722960793,((Gorceixia_decurrens,Albertinia_brasiliensis)1:5.587325403318818,(((Anteremanthuspiranii,(Hololepis_pedunculata)#H22:::0.6278478086151855)0.79:0.3777678634405458,(Eremanthus_crotonoides,#H22:::0.3721521913848144):0.3777678634405458)1:0.0)#H21:9.974549908234035::0.5114398048112726):0.5075698016202018)0.6:0.06866978657648992)#H23:0.05914110111213722::0.7836985330584226)0.65:0.14727898785140964):1.0336787874881501,Heterocoma_ekmaniana,(Chronopappus_bifrons,#H23:0.34860756653744085::0.21630146694157737):0.0854267010898808)1;
+---------------------
+seed: 90886 for run 6, 2023-02-15 18:12:7.881
+
+BEGIN SNaQ for run 6, seed 90886 and hmax 4 changed starting topology by NNI move
+
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 372 (failures: 75) with -loglik=610.08161 and ht_min=[0.14081, 0.47323, 0.23411, 0.03416, 2.24715, 0.24705, 2.03181, 0.01895, 0.01445, 0.30877, 5.48243, 9.95452, 0.56242, 0.03542, 0.06736, 0.14986, 1.01856, 5.35399, 1.0e-5, 3.02363, 0.38786, 0.37187]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 4		 3		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 103		 103		 16	 |	 0		 0		 --
+mvtarget	 86		 74		 0	 |	 0		 0		 --
+chdir		 84		 82		 2	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 95		 9		 0	 |	 2		 2		 --
+Total		 372		 271		 19	 |	 2		 2		 2
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 1.0
+(Paralychnophora_harleyi,(Maschalostachysmarkgrafii,(((Anteremanthushatschbachii,(((Lychnophora_mellosilvae,(((Anteremanthuspiranii,(Hololepis_pedunculata,#H22:::0.14081082802150566):2.0318148816707344)0.79:0.2470495329018147,(Eremanthus_crotonoides)#H22:::0.8591891719784943)1:0.0189490846495614)#H21:0.014452910662963508::0.5267737100698899)0.93:0.30877330785310586,((Gorceixia_decurrens,Albertinia_brasiliensis)1:5.482425761997391,#H21:9.954520459439605::0.47322628993011):0.5624172474897556)0.6:0.03541690119703694)#H23:0.06736408120122672::0.7658915025662889)0.65:0.14985670793335937,(#H23:5.353993722144679::0.23410849743371107,(Heterocoma_ekmaniana,Chronopappus_bifrons)1:9.898311696179691e-6):1.0185625761108934)1:0.0)#H24:0.38786303303953906::0.9658369266856236):2.2471505625184323,(Paralychnophoraatkinsiae,#H24:0.37187149223464::0.034163073314376395):3.0236342353222345)1;
+---------------------
+seed: 87303 for run 7, 2023-02-15 18:50:14.143
+
+BEGIN SNaQ for run 7, seed 87303 and hmax 4 changed starting topology by NNI move
+
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 130 (failures: 75) with -loglik=623.88175 and ht_min=[0.35335, 0.40771, 0.22053, 0.0, 1.61381, 0.30608, 0.08816, 0.73346, 0.13931, 0.0, 0.27246, 5.44269, 10.0, 0.69783, 0.07885, 0.05911, 0.14927, 1.03134, 0.08837, 0.0, 0.33081]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 4		 2		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 38		 38		 1	 |	 76		 76		 --
+mvtarget	 25		 18		 1	 |	 74		 74		 --
+chdir		 31		 29		 2	 |	 150		 150		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 32		 8		 0	 |	 1		 1		 --
+Total		 130		 95		 5	 |	 301		 301		 77
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 0.3
+(Chronopappus_bifrons,((Anteremanthushatschbachii,(((Lychnophora_mellosilvae,(((Eremanthus_crotonoides,(Hololepis_pedunculata,#H22:::0.3533493361640191)1:0.7334604077957283):0.13931449321155562,(Anteremanthuspiranii)#H22:::0.6466506638359809)0.79:0.08815799355335444)#H21:0.0::0.592287043137633)0.93:0.2724571796676646,((Gorceixia_decurrens,Albertinia_brasiliensis)1:5.4426892224098475,#H21:9.999999999891068::0.40771295686236697):0.6978252829612931)0.6:0.07885441446032809)#H23:0.0591090513909057::0.7794738221450384)0.65:0.1492723658371152,((Maschalostachysmarkgrafii)#H24:::1.0,(Paralychnophoraatkinsiae,(Paralychnophora_harleyi,#H24:::0.0):0.3308070825061056)1:1.6138136347305803)1:0.30608232331906526):1.0313350038569795,(Heterocoma_ekmaniana,#H23:0.08836817994839842::0.2205261778549617):2.9340543726563822e-15)1;
+---------------------
+seed: 85658 for run 8, 2023-02-15 19:40:48.098
+
+BEGIN SNaQ for run 8, seed 85658 and hmax 4 changed starting topology by NNI move
+
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 138 (failures: 75) with -loglik=604.01708 and ht_min=[0.1705, 0.44188, 0.21515, 0.16865, 4.82528, 0.19635, 0.24908, 1.36891, 0.03622, 0.04779, 0.28844, 5.44465, 9.95502, 0.61596, 0.1025, 0.00676, 0.14273, 1.0279, 0.1833, 0.07432, 0.13548]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 2		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 27		 27		 0	 |	 0		 0		 --
+mvtarget	 45		 36		 0	 |	 0		 0		 --
+chdir		 33		 31		 1	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 31		 14		 0	 |	 2		 2		 --
+Total		 138		 109		 2	 |	 2		 2		 2
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 1.0
+((Heterocoma_ekmaniana,(Chronopappus_bifrons,#H23:0.18329743733640197::0.215148270813077):0.0743202960563089):1.0279030333449684,(Anteremanthushatschbachii,(((Lychnophora_mellosilvae,(((Anteremanthuspiranii,(Hololepis_pedunculata,#H22:::0.17050341144735373):1.368911273273306)0.79:0.24907861948020885,(Eremanthus_crotonoides)#H22:::0.8294965885526463)1:0.036220363152704264)#H21:0.047787171596815635::0.5581190239893685)0.93:0.2884409608391964,((Gorceixia_decurrens,Albertinia_brasiliensis)1:5.444645411831627,#H21:9.955019224600013::0.4418809760106314):0.6159580991782883)0.6:0.10249722716593263)#H23:0.006758700818959055::0.784851729186923)0.65:0.14272940292446168,(((Paralychnophora_harleyi,(Paralychnophoraatkinsiae)#H24:::0.8313538522140402)1:4.825281425425019,Maschalostachysmarkgrafii)1:0.19634820074584308,#H24:::0.16864614778595977):0.13548338942288582)1;
+---------------------
+seed: 66615 for run 9, 2023-02-15 20:42:54.686
+
+BEGIN SNaQ for run 9, seed 66615 and hmax 4 changed starting topology by NNI move
+
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 113 (failures: 75) with -loglik=599.07942 and ht_min=[0.24089, 0.49059, 0.21185, 0.1542, 6.21314, 0.3486, 1.89227, 0.15103, 0.0, 0.0, 0.32058, 5.53046, 9.97778, 0.53788, 0.10741, 0.00133, 0.14156, 1.02531, 0.06377, 0.08762, 0.0]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 32		 32		 0	 |	 0		 0		 --
+mvtarget	 20		 15		 0	 |	 0		 0		 --
+chdir		 27		 26		 1	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 33		 5		 0	 |	 4		 4		 --
+Total		 113		 79		 2	 |	 4		 4		 2
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 0.5
+((Heterocoma_ekmaniana,(Chronopappus_bifrons,#H23:0.06377394218510096::0.21185054475420798):0.08761624100038264):1.0253093961667608,(Anteremanthushatschbachii,(((Lychnophora_mellosilvae,(((Eremanthus_crotonoides,(Hololepis_pedunculata,#H22:::0.24088744714792582)0.79:1.892272623318979):0.1510282816487433,(Anteremanthuspiranii)#H22:::0.7591125528520741)1:0.0)#H21:0.0::0.5094086669895785)0.93:0.3205755594360572,((Gorceixia_decurrens,Albertinia_brasiliensis)1:5.530460322142411,#H21:9.977779416419796::0.4905913330104214):0.5378832332424007)0.6:0.10740680840098876)#H23:0.0013312049790786588::0.788149455245792)0.65:0.1415578707066624,(((Paralychnophora_harleyi,(Paralychnophoraatkinsiae)#H24:::0.8458048100457978)1:6.213142115976922,Maschalostachysmarkgrafii)1:0.3486010795470978,#H24:::0.15419518995420226):0.0)1;
+---------------------
+seed: 60239 for run 10, 2023-02-15 20:58:10.637
+
+BEGIN SNaQ for run 10, seed 60239 and hmax 4
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 150 (failures: 75) with -loglik=598.02727 and ht_min=[0.50686, 0.21945, 0.15455, 1.01648, 6.50697, 0.34778, 0.00688, 0.0, 0.33158, 5.58432, 9.969, 0.51327, 0.07919, 0.0471, 0.14566, 0.22768, 0.01177, 0.0, 0.19724, 0.11548]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 5		 4		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 38		 38		 4	 |	 0		 0		 --
+mvtarget	 32		 32		 0	 |	 0		 0		 --
+chdir		 38		 38		 0	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 37		 9		 0	 |	 0		 0		 --
+Total		 150		 121		 5	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+(((Anteremanthushatschbachii,(((Lychnophora_mellosilvae,#H21:0.0::0.4931399530275883)0.93:0.33157787563811897,((Gorceixia_decurrens,Albertinia_brasiliensis)1:5.584316127978582,(((Anteremanthuspiranii,(Hololepis_pedunculata)#H22:::0.6307357767815556)0.79:0.3750095788869411,(Eremanthus_crotonoides,#H22:::0.36926422321844443):0.3750095788869411)1:0.006879821223308061)#H21:9.968998254378477::0.5068600469724117):0.5132733752571419)0.6:0.07919332474305225)#H23:0.047095461632474904::0.7805518586554252)0.65:0.14566395137898844,(((Paralychnophora_harleyi,(Paralychnophoraatkinsiae)#H24:::0.8454483995200737)1:6.506966190284818,Maschalostachysmarkgrafii)1:0.34777934425613777,#H24:::0.1545516004799264):0.0):1.0164842135407897,Heterocoma_ekmaniana,(Chronopappus_bifrons,#H23:0.22768098551295887::0.21944814134457485):0.011767406377718599)1;
+---------------------
+
+2023-02-15 21:19:49.317
+MaxNet is (Heterocoma_ekmaniana,Chronopappus_bifrons,(((Anteremanthushatschbachii,(((Lychnophora_mellosilvae,#H21:0.0::0.4886147710996156)0.93:0.3317143996329094,((Gorceixia_decurrens,Albertinia_brasiliensis)1:5.564296760272738,(((Anteremanthuspiranii,(Hololepis_pedunculata)#H22:::0.6293843220030408)0.79:0.37609329951246523,(Eremanthus_crotonoides,#H22:::0.3706156779969591):0.37609329951246523)1:0.0)#H21:9.939385149543144::0.5113852289003844):0.5033612079235299)0.6:0.0)#H23:0.14886404345268953::0.7329801141080007)0.65:0.16192795683952657,((Paralychnophoraatkinsiae,(Paralychnophora_harleyi)#H24:::0.910649386965011)1:2.28575440489348,(Maschalostachysmarkgrafii,#H24:::0.08935061303498903):2.28575440489348)1:0.25862286321371086):0.8384064349071384,#H23:1.3773386298227697::0.2670198858919993):0.141752593425438)1; 
+with -loglik 592.5718131250069

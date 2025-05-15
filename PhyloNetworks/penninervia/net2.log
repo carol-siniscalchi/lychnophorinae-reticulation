@@ -1,0 +1,235 @@
+optimization of topology, BL and inheritance probabilities using:
+ hmax = 2,
+ tolerance parameters: ftolRel=1.0e-6, ftolAbs=1.0e-6,
+                       xtolAbs=0.001, xtolRel=0.01.
+ max number of failed proposals = 75, liktolAbs = 1.0e-6.
+rootname for files: net2
+BEGIN: 10 runs on starting tree (Lychnophorasalicifolia,(Lychnophoraericoides,#H21:::0.4407704853026712):0.20962584134641435,((Eremanthus_elaeagnus_E2875,((Piptolepispabstii,Eremanthus_auriculatus)0.99:0.2241251487470142,(Eremanthus_incanus,(Eremanthus_reticulatus_E2876)#H21:::0.5592295146973287)0.99:0.44899889204970994)0.97:0.2501029971079206):0.05875020887847947,(Eremanthus_veadeiroensis_E2872,(Lychnophora_santosii,((Lychnophorellaregis,Lychnophorellabishopii)0.97:0.14026730926004968,Lychnophora_mellosilvae)1:0.679679495061062)0.98:0.19494453814781604)1:0.255730212733923)0.72:0.9842126474951477)1;
+
+main seed 3456
+seed: 3456 for run 1, 2023-01-25 9:37:24.32
+
+BEGIN SNaQ for run 1, seed 3456 and hmax 2 changed starting topology by NNI move
+
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 114 (failures: 75) with -loglik=540.43666 and ht_min=[0.44098, 0.52526, 0.2104, 0.22425, 0.44807, 0.25014, 0.05879, 0.43628, 0.14002, 0.73233, 0.25384, 0.98375, 0.16515, 0.62037, 1.97918]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 29		 29		 0	 |	 0		 0		 --
+mvtarget	 26		 26		 0	 |	 0		 0		 --
+chdir		 15		 15		 3	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 43		 29		 1	 |	 6		 6		 --
+Total		 114		 100		 5	 |	 6		 6		 4
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 0.7
+(Lychnophorasalicifolia,(Lychnophoraericoides,#H21:::0.4409830641465544):0.21039998862315382,((Eremanthus_elaeagnus_E2875,((Piptolepispabstii,Eremanthus_auriculatus)0.99:0.224247679887905,(Eremanthus_incanus,(Eremanthus_reticulatus_E2876)#H21:::0.5590169358534456)0.99:0.4480704786552949)0.97:0.2501415060876601):0.058790696987528264,((Lychnophora_santosii,#H22:0.6203693790015672::0.4747414303460792)0.98:0.7323339694032738,(Eremanthus_veadeiroensis_E2872,(((Lychnophorellaregis,Lychnophorellabishopii)0.97:0.14002371335999986,Lychnophora_mellosilvae)1:0.43628327536562317)#H22:1.979175415028058::0.5252585696539208)1:0.25383952196537996):0.16514927854045866)0.72:0.9837516808816251)1;
+---------------------
+seed: 40599 for run 2, 2023-01-25 10:13:48.31
+
+BEGIN SNaQ for run 2, seed 40599 and hmax 2 changed starting topology by NNI move
+
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 286 (failures: 75) with -loglik=530.96191 and ht_min=[0.4408, 0.12507, 0.2096, 0.22412, 0.44882, 0.24995, 0.0588, 0.29541, 0.71843, 0.15606, 1.02826, 0.1622, 0.98386]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 4		 3		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 65		 65		 6	 |	 0		 0		 --
+mvtarget	 75		 75		 4	 |	 0		 0		 --
+chdir		 58		 58		 4	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 84		 69		 1	 |	 2		 2		 --
+Total		 286		 270		 16	 |	 2		 2		 2
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 1.0
+(Lychnophorasalicifolia,(Lychnophoraericoides,#H21:::0.44079825961039143):0.20960489595136372,((Eremanthus_elaeagnus_E2875,((Piptolepispabstii,Eremanthus_auriculatus)0.99:0.22412357652304105,(Eremanthus_incanus,(Eremanthus_reticulatus_E2876)#H21:::0.5592017403896086)0.99:0.4488225452913928)0.97:0.2499460209892893):0.058801440950448064,(((Lychnophora_mellosilvae,(Lychnophorellaregis,(Lychnophorellabishopii,#H22:::0.12507048568582566):1.0282633800532581)0.97:0.1560578132474039)1:0.7184321741386624,Lychnophora_santosii)0.98:0.29541178117904343,(Eremanthus_veadeiroensis_E2872)#H22:::0.8749295143141743)1:0.16219602296971736)0.72:0.9838619263888474)1;
+---------------------
+seed: 57695 for run 3, 2023-01-25 10:55:29.077
+
+BEGIN SNaQ for run 3, seed 57695 and hmax 2 changed starting topology by NNI move
+
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 276 (failures: 75) with -loglik=530.96191 and ht_min=[0.4408, 0.12508, 0.98386, 0.20961, 0.24995, 0.44881, 0.22413, 0.0588, 0.29542, 1.02819, 0.15606, 0.71843, 0.16219]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 77		 77		 10	 |	 114		 114		 --
+mvtarget	 70		 70		 1	 |	 113		 113		 --
+chdir		 59		 59		 1	 |	 227		 227		 --
+delete		 0		 0		 0	 |	 5		 5		 --
+nni		 69		 56		 3	 |	 2		 2		 --
+Total		 276		 263		 16	 |	 461		 461		 72
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 0.2
+(((Eremanthus_elaeagnus_E2875,((Eremanthus_incanus,(Eremanthus_reticulatus_E2876)#H21:::0.5592035679267389)0.99:0.4488090518901942,(Piptolepispabstii,Eremanthus_auriculatus)0.99:0.22413217241109568)0.97:0.24994739864541085):0.058797704688131724,((Lychnophora_santosii,(Lychnophora_mellosilvae,(Lychnophorellaregis,(Lychnophorellabishopii,#H22:::0.1250753155790834):1.0281943460445886)0.97:0.15606453758607763)1:0.7184332413748765)0.98:0.29541546890954606,(Eremanthus_veadeiroensis_E2872)#H22:::0.8749246844209166)1:0.1621929293652797)0.72:0.9838571642095597,(Lychnophoraericoides,#H21:::0.4407964320732612):0.20960866708064851,Lychnophorasalicifolia)1;
+---------------------
+seed: 10390 for run 4, 2023-01-25 12:18:46.051
+
+BEGIN SNaQ for run 4, seed 10390 and hmax 2
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 81 (failures: 75) with -loglik=530.96191 and ht_min=[0.4408, 0.12506, 0.20958, 0.22412, 0.44882, 0.24995, 0.0588, 0.15606, 0.71843, 0.29541, 0.1622, 0.98386, 1.02837]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 24		 24		 0	 |	 0		 0		 --
+mvtarget	 20		 20		 0	 |	 0		 0		 --
+chdir		 10		 10		 0	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 26		 25		 0	 |	 0		 0		 --
+Total		 81		 80		 1	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+(Lychnophorasalicifolia,(Lychnophoraericoides,#H21:::0.44080061674071924):0.20958457899685815,((Eremanthus_elaeagnus_E2875,((Piptolepispabstii,Eremanthus_auriculatus)0.99:0.22412028537859782,(Eremanthus_incanus,(Eremanthus_reticulatus_E2876)#H21:::0.5591993832592808)0.99:0.44881667461024455)0.97:0.24994597930111723):0.0588010560071912,((Lychnophora_santosii,((Lychnophorellaregis,(Lychnophorellabishopii,#H22:::0.12506482484190815):1.028369170694902)0.97:0.15605730811316018,Lychnophora_mellosilvae)1:0.7184311975123837)0.98:0.29540593491637146,(Eremanthus_veadeiroensis_E2872)#H22:::0.8749351751580918)1:0.16220270625942)0.72:0.9838623236785219)1;
+---------------------
+seed: 18310 for run 5, 2023-01-25 12:46:6.942
+
+BEGIN SNaQ for run 5, seed 18310 and hmax 2 changed starting topology by NNI move
+
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 360 (failures: 75) with -loglik=536.73132 and ht_min=[0.44086, 0.08527, 0.2095, 0.22408, 0.44913, 0.25, 0.05882, 0.22528, 7.7949, 0.22001, 0.75882, 0.23273, 0.98399]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 93		 93		 10	 |	 0		 0		 --
+mvtarget	 93		 93		 3	 |	 0		 0		 --
+chdir		 67		 67		 1	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 106		 82		 0	 |	 2		 2		 --
+Total		 360		 336		 15	 |	 2		 2		 1
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 1.0		 0.5
+(Lychnophorasalicifolia,((Eremanthus_elaeagnus_E2875,((Piptolepispabstii,Eremanthus_auriculatus)0.99:0.2240788806838111,(Eremanthus_incanus,(Eremanthus_reticulatus_E2876)#H21:::0.5591423920507534)0.99:0.4491349489536847)0.97:0.2500019819924826):0.05882324910219785,(((Lychnophora_mellosilvae,(Lychnophorellaregis,(Lychnophorellabishopii)#H22:::0.9147258908595808)0.97:0.22001456822144483)1:0.758823808632622,Lychnophora_santosii)0.98:0.22527973710097357,(Eremanthus_veadeiroensis_E2872,#H22:::0.08527410914041916):7.79489614878916)1:0.23273468728948654)0.72:0.9839934571889324,(#H21:::0.4408576079492466,Lychnophoraericoides):0.2095039700802466)1;
+---------------------
+seed: 56862 for run 6, 2023-01-25 14:2:50.331
+
+BEGIN SNaQ for run 6, seed 56862 and hmax 2
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 233 (failures: 75) with -loglik=536.73006 and ht_min=[0.44084, 0.08526, 0.20954, 0.22408, 0.44919, 0.24998, 0.05886, 0.2327, 0.22007, 0.75884, 0.22531, 0.98416, 9.3574]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 63		 63		 4	 |	 0		 0		 --
+mvtarget	 72		 72		 1	 |	 0		 0		 --
+chdir		 30		 30		 0	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 67		 51		 0	 |	 0		 0		 --
+Total		 233		 217		 6	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+(Lychnophorasalicifolia,(Lychnophoraericoides,#H21:::0.4408364232696529):0.2095403056804862,((Eremanthus_elaeagnus_E2875,((Piptolepispabstii,Eremanthus_auriculatus)0.99:0.2240828024702772,(Eremanthus_incanus,(Eremanthus_reticulatus_E2876)#H21:::0.5591635767303471)0.99:0.44918762962333564)0.97:0.24997745675714506):0.05885646537866974,((Lychnophora_santosii,(Lychnophora_mellosilvae,(Lychnophorellaregis,(Lychnophorellabishopii)#H22:::0.9147375948359924)0.97:0.22006523991411975)1:0.7588372533133508)0.98:0.22531070654849814,(Eremanthus_veadeiroensis_E2872,#H22:::0.08526240516400765):9.357404898480517)1:0.23270014105234335)0.72:0.984155075000868)1;
+---------------------
+seed: 37911 for run 7, 2023-01-25 14:38:46.389
+
+BEGIN SNaQ for run 7, seed 37911 and hmax 2
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 157 (failures: 75) with -loglik=530.96191 and ht_min=[0.4408, 0.12506, 0.20961, 0.22413, 0.44882, 0.24995, 0.0588, 0.29541, 0.15606, 0.71843, 0.1622, 0.98386, 1.02852]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 1		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 46		 46		 1	 |	 0		 0		 --
+mvtarget	 44		 44		 0	 |	 0		 0		 --
+chdir		 21		 21		 1	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 45		 41		 0	 |	 0		 0		 --
+Total		 157		 153		 3	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+(Lychnophorasalicifolia,(Lychnophoraericoides,#H21:::0.440798043094359):0.2096113569468895,((Eremanthus_elaeagnus_E2875,((Piptolepispabstii,Eremanthus_auriculatus)0.99:0.2241271611041132,(Eremanthus_incanus,(Eremanthus_reticulatus_E2876)#H21:::0.559201956905641)0.99:0.4488229715556091)0.97:0.2499473676698624):0.058799812201471235,((Lychnophora_santosii,((Lychnophorellaregis,(Lychnophorellabishopii,#H22:::0.12506264011678023):1.0285248084383405)0.97:0.15605693628752015,Lychnophora_mellosilvae)1:0.7184310322229517)0.98:0.29540645737303217,(Eremanthus_veadeiroensis_E2872)#H22:::0.8749373598832197)1:0.16220150090327212)0.72:0.9838616055851062)1;
+---------------------
+seed: 96883 for run 8, 2023-01-25 15:21:29.189
+
+BEGIN SNaQ for run 8, seed 96883 and hmax 2 changed starting topology by NNI move
+
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 183 (failures: 75) with -loglik=574.90394 and ht_min=[0.47103, 0.23928, 0.95992, 0.22051, 0.49688, 0.25468, 0.05621, 0.34676, 0.32469, 0.19471, 0.25757, 0.01571, 3.84471, 0.1316]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 3		 3		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 51		 51		 11	 |	 0		 0		 --
+mvtarget	 49		 49		 0	 |	 0		 0		 --
+chdir		 34		 34		 2	 |	 1		 1		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 46		 35		 2	 |	 9		 9		 --
+Total		 183		 172		 16	 |	 10		 10		 6
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 0.6
+(Lychnophorellaregis,(Lychnophora_mellosilvae,((Lychnophora_santosii,(Eremanthus_veadeiroensis_E2872,((Eremanthus_elaeagnus_E2875,((Piptolepispabstii,Eremanthus_auriculatus)0.99:0.22050602559937704,((Eremanthus_reticulatus_E2876)#H21:::0.5289716546443501,Eremanthus_incanus)0.99:0.49687758094435586)0.97:0.2546786055171042):0.056212936571521495,((Lychnophorasalicifolia,Lychnophoraericoides)1:0.01571390050504271,#H21:::0.4710283453556499):0.9599237392415614)0.72:0.25757108310468263)1:0.19470712887300096)0.98:0.0)#H22:3.844713707060992::0.7607229770110576)1:0.34676156602308067,(Lychnophorellabishopii,#H22:0.1316004699462575::0.23927702298894238):0.32468803514827277)0.97;
+---------------------
+seed: 83494 for run 9, 2023-01-25 16:16:31.369
+
+BEGIN SNaQ for run 9, seed 83494 and hmax 2 changed starting topology by NNI move
+
+ changed starting network by move origin
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 250 (failures: 75) with -loglik=536.73188 and ht_min=[0.44092, 0.08533, 0.20939, 0.22405, 0.44932, 0.24997, 0.05886, 0.22528, 0.22007, 0.7589, 0.23274, 0.984, 7.50314]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 2		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 58		 58		 8	 |	 0		 0		 --
+mvtarget	 82		 82		 0	 |	 0		 0		 --
+chdir		 45		 45		 0	 |	 0		 0		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 63		 59		 1	 |	 0		 0		 --
+Total		 250		 245		 10	 |	 0		 0		 0
+Proportion	 -- 		 1.0		 0.0	 |	 -- 		 0.0		 0.0
+(Lychnophorasalicifolia,(Lychnophoraericoides,#H21:::0.4409188533529593):0.20938686810618948,((((Piptolepispabstii,Eremanthus_auriculatus)0.99:0.22404840231283676,(Eremanthus_incanus,(Eremanthus_reticulatus_E2876)#H21:::0.5590811466470407)0.99:0.44932200925426913)0.97:0.2499675077795356,Eremanthus_elaeagnus_E2875)0.72:0.05885918503193813,((Lychnophora_santosii,((Lychnophorellaregis,(Lychnophorellabishopii)#H22:::0.9146732449809922)0.97:0.2200691215886819,Lychnophora_mellosilvae)1:0.7588953127199742)0.98:0.22528070317458884,(Eremanthus_veadeiroensis_E2872,#H22:::0.08532675501900772):7.503139023916237)1:0.23273871059245854):0.9839972802233559)1;
+---------------------
+seed: 68985 for run 10, 2023-01-25 17:18:44.332
+
+BEGIN SNaQ for run 10, seed 68985 and hmax 2 changed starting topology by NNI move
+
+ changed starting network by move target
+Begins heuristic optimization of network------
+
+found best network, now we re-optimize branch lengths and gamma more precisely
+STOPPED by number of failures criteria
+END optTopLevel: found minimizer topology at step 132 (failures: 75) with -loglik=770.02095 and ht_min=[0.27587, 0.9641, 0.15335, 0.0, 1.04464, 0.0, 0.00328, 0.14461, 0.68671, 0.19462, 0.2727, 0.48918, 0.21959, 0.00293]
+PERFORMANCE: total number of moves (proposed, successful, accepted) in general, and to fix gamma=0.0,t=0.0 cases
+	--------moves general--------				 --------moves gamma,t------	
+move	 Num.Proposed	 Num.Successful	 Num.Accepted	 | Num.Proposed	 Num.Successful	 Num.Accepted
+add		 2		 1		 1	 |	 NA 		 NA 		 NA 
+mvorigin	 41		 41		 10	 |	 12		 12		 --
+mvtarget	 31		 31		 2	 |	 12		 12		 --
+chdir		 20		 20		 0	 |	 26		 26		 --
+delete		 0		 0		 0	 |	 0		 0		 --
+nni		 38		 28		 0	 |	 4		 4		 --
+Total		 132		 121		 13	 |	 54		 54		 28
+Proportion	 -- 		 1.0		 0.1	 |	 -- 		 1.0		 0.5
+(Eremanthus_reticulatus_E2876,(((Piptolepispabstii,(Eremanthus_auriculatus)#H22:::0.9868155105286935)0.99:0.2517031106079705,(Eremanthus_incanus,#H22:::0.013184489471306455):0.2517031106079705)0.97:0.0032788992526610896,((Eremanthus_elaeagnus_E2875,(Eremanthus_veadeiroensis_E2872,(Lychnophora_santosii,((Lychnophorellaregis,Lychnophorellabishopii)0.97:0.14460520398340315,Lychnophora_mellosilvae)1:0.6867057550849925)0.98:0.19462015235735886)1:0.2726969115574355):0.15334796613105603)#H21:0.0::0.7241349833533581)0.72:0.48917986061965074,(Lychnophoraericoides,(Lychnophorasalicifolia,#H21:1.0446415411308554::0.27586501664664187)0.99:0.0):0.9640957354257393)1;
+---------------------
+
+2023-01-25 17:38:57.469
+MaxNet is (Lychnophorasalicifolia,(Lychnophoraericoides,#H21:::0.44079825961039143):0.20960489595136372,((Eremanthus_elaeagnus_E2875,((Piptolepispabstii,Eremanthus_auriculatus)0.99:0.22412357652304105,(Eremanthus_incanus,(Eremanthus_reticulatus_E2876)#H21:::0.5592017403896086)0.99:0.4488225452913928)0.97:0.2499460209892893):0.058801440950448064,(((Lychnophora_mellosilvae,(Lychnophorellaregis,(Lychnophorellabishopii,#H22:::0.12507048568582566):1.0282633800532581)0.97:0.1560578132474039)1:0.7184321741386624,Lychnophora_santosii)0.98:0.29541178117904343,(Eremanthus_veadeiroensis_E2872)#H22:::0.8749295143141743)1:0.16219602296971736)0.72:0.9838619263888474)1; 
+with -loglik 530.9619085833109
