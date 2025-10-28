@@ -108,4 +108,6 @@ ggplot(supp, aes(x = treatment, y = support.values, fill = treatment)) + geom_vi
   geom_boxplot(width=0.1, color="black", alpha=0.6, lwd = 0.2)
 dev.off()
 
-
+pdf("test.pdf", height = 50, width = 20)
+plotTree(t1,pts=F,lwd=3,node.numbers=T)
+dev.off()
